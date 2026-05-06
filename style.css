@@ -729,21 +729,28 @@ h4 { font-size: 1rem; font-weight: 700; }
 }
 
 @media (max-width: 768px) {
-  .xmarks__stage { display: block; position: relative; }
-  .xmarks__start { display: none; }
-  .xmarks__map { display: block; width: 100%; }
-  .xmarks__svg { height: 110px; width: 100%; }
-  .xmarks__destination {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+  .xmarks__stage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     gap: 0;
   }
-  /* Hide label so div height = X only — centering lands exactly on trail tip */
+  .xmarks__start { display: none; }
+  .xmarks__map { flex: 1; min-width: 0; }
+  .xmarks { overflow: visible; }
+  .xmarks__svg { height: 90px; width: 100%; overflow: visible; }
+  .xmarks__destination {
+    position: static;
+    transform: none;
+    flex-shrink: 0;
+    width: 60px;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+  }
   .xmarks__dest-label { display: none; }
-  .xmarks__x { width: 64px; height: 64px; }
-  .xmarks__pulse, .xmarks__pulse--2 { width: 72px; height: 72px; }
+  .xmarks__x { width: 56px; height: 56px; }
+  .xmarks__pulse, .xmarks__pulse--2 { width: 64px; height: 64px; }
 }
 
 /* ─── SERVICES ──────────────────────────────────────────────── */
