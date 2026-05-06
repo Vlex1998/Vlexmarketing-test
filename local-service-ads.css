@@ -531,6 +531,7 @@ h1, h2, h3 { text-transform: uppercase !important; }
   .ls-hero__bullets li { font-size: 0.88rem; }
   .ls-hero__actions .btn { width: 100%; justify-content: center; }
   .ls-shingle-wrap { width: 92vw; border-radius: 10px; left: 50%; transform: translateX(-50%); }
+  .ls-shingle-wrap__bg { background-size: 120% auto; background-position: center top; }
   .ls-shingle-content { padding: 32px 20px; }
   .ls-form-card { padding: 24px 16px; }
   .ls-capture-point { padding: 16px; }

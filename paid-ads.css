@@ -643,7 +643,7 @@ h1, h2, h3 { text-transform: uppercase !important; }
   .pa-hero__headline { font-size: clamp(1.55rem, 7vw, 2rem); }
   .pa-hero__bullets li { font-size: 0.88rem; }
   .pa-hero__actions .btn { width: 100%; justify-content: center; }
-  .pa-shingle-box { width: 92vw; border-radius: 10px; left: 50%; transform: translateX(-50%); }
+  .pa-shingle-box { width: 92vw; border-radius: 10px; left: 50%; transform: translateX(-50%); background-size: 120% auto; background-position: center top; }
   .pa-shingle-inner { padding: 32px 20px; }
   .pa-cta__form { padding: 24px 16px; }
   .pa-platforms { gap: 12px; }

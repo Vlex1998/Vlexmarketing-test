@@ -692,7 +692,7 @@ h1, h2, h3 { text-transform: uppercase !important; }
   .se-hero__headline { font-size: clamp(1.55rem, 7vw, 2rem) !important; }
   .se-hero__bullets li { font-size: 0.88rem; }
   .se-hero__actions .btn { width: 100%; justify-content: center; }
-  .se-shingle-box { width: 92vw; border-radius: 10px; left: 50%; transform: translateX(-50%); }
+  .se-shingle-box { width: 92vw; border-radius: 10px; left: 50%; transform: translateX(-50%); background-size: 120% auto; background-position: center top; }
   .se-shingle-inner { padding: 32px 20px; }
   .se-cta__form { padding: 24px 16px; }
   .se-services { grid-template-columns: 1fr; }
