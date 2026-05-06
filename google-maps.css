@@ -546,7 +546,7 @@ h1, h2, h3 { text-transform: uppercase !important; }
   .gm-hero__headline { font-size: clamp(1.55rem, 7vw, 2rem); }
   .gm-hero__bullets li { font-size: 0.88rem; }
   .gm-hero__actions .btn { width: 100%; justify-content: center; }
-  .gm-shingle-wrap { width: 100vw; border-radius: 0; left: 50%; transform: translateX(-50%); }
+  .gm-shingle-wrap { width: 92vw; border-radius: 10px; left: 50%; transform: translateX(-50%); }
   .gm-shingle-content { padding: 32px 20px; }
   .gm-form-card { padding: 24px 16px; }
   .gm-warning-inner { gap: 28px; }

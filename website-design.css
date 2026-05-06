@@ -772,7 +772,7 @@
   .wd-hero__inner { padding-top: 24px; padding-bottom: 24px; }
   .wd-hero__bullets li { font-size: 0.88rem; }
   .wd-hero__actions .btn { width: 100%; justify-content: center; }
-  .wd-shingle-box { width: 100vw !important; border-radius: 0; left: 50%; transform: translateX(-50%); }
+  .wd-shingle-box { width: 92vw !important; border-radius: 10px; left: 50%; transform: translateX(-50%); }
   .wd-shingle-inner { padding: 32px 20px !important; }
   .wd-cta__form { padding: 24px 16px; }
   .wd-data__grid { grid-template-columns: 1fr 1fr; }
