@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Local Service Ads — Vlex Marketing</title>
+  <meta name="description" content="Vlex Marketing manages Google Local Service Ads so you only pay when real customers call you. Texas-based. Pay-per-lead. Results-driven." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="local-service-ads.css" />
+  <style>
+    h1, h2, h3 { text-transform: uppercase !important; }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="brand assests/logovlex.png" alt="Vlex Marketing" />
+      </a>
+      <ul class="nav__links">
+        <li class="nav__item--dropdown">
+          <button class="nav__dropdown-toggle" type="button" onclick="var p=this.closest('.nav__item--dropdown');p.classList.toggle('open');event.stopPropagation();">Services <span class="nav__chevron">▾</span></button>
+          <div class="nav__mega">
+            <div class="mega__main">
+              <a href="paid-ads.html" class="mega__card">
+                <div class="mega__img"><img src="brand assests/DSC00026-3.jpg" alt="Paid Ads Management" /></div>
+                <h4>Paid Ads Management</h4>
+                <p>Google Ads, Meta &amp; TikTok campaigns built to generate qualified leads at scale.</p>
+              </a>
+              <a href="seo.html" class="mega__card">
+                <div class="mega__img"><img src="brand assests/DSC00129.jpg" alt="SEO & Content" /></div>
+                <h4>SEO &amp; Content Marketing</h4>
+                <p>Dominate organic search through technical SEO, authority content, and link building.</p>
+              </a>
+              <a href="website-design.html" class="mega__card">
+                <div class="mega__img"><img src="brand assests/DSC00015.jpg" alt="Website Design" /></div>
+                <h4>Website Design</h4>
+                <p>High-converting websites and landing pages built for speed and measurable ROI.</p>
+              </a>
+            </div>
+            <div class="mega__side">
+              <a href="google-maps.html" class="mega__side-item">
+                <div class="mega__side-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                <div><h4>Google Maps SEO</h4><p>Get to the top of Google Maps so local customers find you first.</p></div>
+              </a>
+              <a href="local-service-ads.html" class="mega__side-item">
+                <div class="mega__side-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg></div>
+                <div><h4>Google Local Service Ads</h4><p>Pay-per-lead ads — only pay when customers actually call you.</p></div>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#results">Results</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn--primary nav__cta">Get in Touch</a>
+      <button class="nav__burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="nav__mobile" id="mobileMenu">
+    <ul>
+      <li><a href="paid-ads.html">Paid Ads Management</a></li>
+      <li><a href="seo.html">SEO &amp; Content Marketing</a></li>
+      <li><a href="website-design.html">Website Design</a></li>
+      <li><a href="google-maps.html">Google Maps SEO</a></li>
+      <li><a href="local-service-ads.html">Google Local Service Ads</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#results">Results</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="ls-hero">
+    <div class="ls-hero__bg">
+      <img src="brand assests/DSC00129.jpg" alt="Google Local Service Ads management" />
+    </div>
+    <div class="ls-hero__overlay"></div>
+    <div class="container ls-hero__inner">
+      <p class="ls-hero__breadcrumb">Google Local Service Ads</p>
+      <div class="ls-hero__quote">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+        <span>"Our cost per lead dropped 60% after switching to LSAs with Vlex." — Vlex Client</span>
+      </div>
+      <h1 class="ls-hero__headline">ONLY PAY WHEN<br>REAL CUSTOMERS CALL YOU</h1>
+      <ul class="ls-hero__bullets">
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+          Pay-per-lead — you only pay when a customer actually calls
+        </li>
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Google Guaranteed badge builds instant trust with customers
+        </li>
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          Show above Google Ads and organic results for top placement
+        </li>
+      </ul>
+      <div class="ls-hero__actions">
+        <a href="#contact" class="btn btn--primary btn--lg">Get in Touch</a>
+      </div>
+    </div>
+    <div class="ls-hero__stats">
+      <div class="container ls-hero__stats-inner">
+        <div class="ls-stat">
+          <strong>#1</strong>
+          <span>LSAs appear above all other Google results</span>
+        </div>
+        <div class="ls-stat-div"></div>
+        <div class="ls-stat">
+          <strong>Pay-Per-Lead</strong>
+          <span>only charged when a customer calls or messages</span>
+        </div>
+        <div class="ls-stat-div"></div>
+        <div class="ls-stat">
+          <strong>Google</strong>
+          <span>Guaranteed badge on every ad</span>
+        </div>
+        <div class="ls-stat-div"></div>
+        <div class="ls-stat">
+          <strong>Dispute</strong>
+          <span>invalid leads &amp; get your money back</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERTISE TWO-COL -->
+  <section class="ls-section">
+    <div class="container ls-two-col">
+      <div class="ls-two-col__text">
+        <span class="label-tag">Local Service Ads Experts</span>
+        <h2>Stop Paying For Clicks.<br>Start Paying For Calls.</h2>
+        <p>With traditional Google Ads, you pay every time someone clicks your ad — whether they call you, buy from you, or just bounce. Google Local Service Ads completely flips this model. You only pay when a real customer reaches out directly from your ad.</p>
+        <p>At Vlex Marketing, we handle every step of the LSA setup, verification, and ongoing management — so your budget goes toward leads that actually matter, not wasted clicks from the wrong audience.</p>
+        <ul class="ls-checklist">
+          <li>Complete LSA setup &amp; Google Guaranteed verification</li>
+          <li>Budget management to maximize qualified lead volume</li>
+          <li>Lead dispute management — fight invalid charges</li>
+          <li>Review generation to boost your LSA ranking</li>
+          <li>Weekly performance monitoring &amp; bid adjustments</li>
+          <li>Transparent monthly reporting on every lead</li>
+        </ul>
+        <a href="#contact" class="btn btn--primary">Get a Free LSA Audit</a>
+      </div>
+      <div class="ls-cards">
+        <div class="ls-card">
+          <div class="ls-card__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+          </div>
+          <h3>Pay-Per-Lead Only</h3>
+          <p>Every dollar you spend is tied directly to a real phone call or message from a customer in your area.</p>
+        </div>
+        <div class="ls-card">
+          <div class="ls-card__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Google Guaranteed</h3>
+          <p>The green checkmark badge tells customers Google has verified your business — and they'll be backed if something goes wrong.</p>
+        </div>
+        <div class="ls-card">
+          <div class="ls-card__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <h3>Lead Dispute System</h3>
+          <p>We actively dispute junk calls and irrelevant leads so you never pay for bad leads that waste your budget.</p>
+        </div>
+        <div class="ls-card">
+          <div class="ls-card__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <h3>Top Placement</h3>
+          <p>LSAs appear at the very top of Google results — above Google Ads, Maps, and organic — giving you the most visible spot on the page.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PILLARS (DARK) -->
+  <section class="ls-section ls-pillars">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">How We Manage Your LSAs</span>
+        <h2>Effective LSA Management For Growth-Minded Businesses</h2>
+        <p>Three core pillars drive every LSA campaign we run — and all three have to be firing for you to win.</p>
+      </div>
+      <div class="ls-pillar-grid">
+        <div class="ls-pillar">
+          <div class="ls-pillar__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+          </div>
+          <h3>True Lead Management</h3>
+          <p>We review every lead your LSA generates, dispute the bad ones, and optimize your campaign settings based on the leads that actually convert — so your cost-per-acquisition goes down every month.</p>
+        </div>
+        <div class="ls-pillar">
+          <div class="ls-pillar__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3>Consistent Communication</h3>
+          <p>You always know what's happening with your account. We send clear monthly reports and are reachable when you have questions — no waiting weeks to hear back from your agency.</p>
+        </div>
+        <div class="ls-pillar">
+          <div class="ls-pillar__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <h3>Analytics &amp; Optimization</h3>
+          <p>We track every metric that matters — cost per lead, lead volume, budget pacing, and ranking factors — and use that data to continuously improve your results over time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARISON TABLE -->
+  <section class="ls-section ls-compare">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">Why Choose A Specialist</span>
+        <h2>Why Choose A Specialized LSA Agency?</h2>
+        <p>LSAs aren't traditional PPC. Managing them poorly means paying for bad leads and losing ranking. Here's what a specialist brings to the table.</p>
+      </div>
+      <div class="ls-table-wrap">
+        <table class="ls-table">
+          <thead>
+            <tr>
+              <th>What You Get</th>
+              <th class="th--vlex th--vlex-col">Vlex Marketing</th>
+              <th>General PPC Agency</th>
+              <th>DIY / Self-Managed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Active lead dispute management</td>
+              <td class="td--vlex"><span class="ls-check">✓</span></td>
+              <td><span class="ls-cross">✗</span></td>
+              <td><span class="ls-cross">✗</span></td>
+            </tr>
+            <tr>
+              <td>Google Guaranteed verification handled</td>
+              <td class="td--vlex"><span class="ls-check">✓</span></td>
+              <td><span class="ls-check">✓</span></td>
+              <td><span class="ls-cross">✗</span></td>
+            </tr>
+            <tr>
+              <td>Weekly budget &amp; bid optimization</td>
+              <td class="td--vlex"><span class="ls-check">✓</span></td>
+              <td><span class="ls-cross">✗</span></td>
+              <td><span class="ls-cross">✗</span></td>
+            </tr>
+            <tr>
+              <td>Review strategy to improve LSA ranking</td>
+              <td class="td--vlex"><span class="ls-check">✓</span></td>
+              <td><span class="ls-cross">✗</span></td>
+              <td><span class="ls-cross">✗</span></td>
+            </tr>
+            <tr>
+              <td>Transparent monthly lead reporting</td>
+              <td class="td--vlex"><span class="ls-check">✓</span></td>
+              <td><span class="ls-check">✓</span></td>
+              <td><span class="ls-cross">✗</span></td>
+            </tr>
+            <tr>
+              <td>Dedicated account strategist</td>
+              <td class="td--vlex"><span class="ls-check">✓</span></td>
+              <td><span class="ls-cross">✗</span></td>
+              <td><span class="ls-cross">✗</span></td>
+            </tr>
+            <tr>
+              <td>No long-term lock-in contracts</td>
+              <td class="td--vlex"><span class="ls-check">✓</span></td>
+              <td><span class="ls-cross">✗</span></td>
+              <td><span class="ls-check">✓</span></td>
+            </tr>
+            <tr>
+              <td>Texas-based, in-house team</td>
+              <td class="td--vlex"><span class="ls-check">✓</span></td>
+              <td><span class="ls-cross">✗</span></td>
+              <td><span class="ls-cross">✗</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOU GET (SHINGLE BOX) -->
+  <section class="ls-section ls-get">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">What's Included</span>
+        <h2>Everything We Do On Your Account</h2>
+        <p>A complete, done-for-you LSA management service — nothing outsourced, nothing skipped.</p>
+      </div>
+    </div>
+    <div class="ls-shingle-wrap">
+      <div class="ls-shingle-wrap__bg"></div>
+      <div class="ls-shingle-wrap__overlay"></div>
+      <div class="ls-shingle-content">
+        <h2>Your Complete LSA Management System</h2>
+        <p>Every deliverable handled in-house. No white-label. No shortcuts.</p>
+        <div class="ls-shingle-list">
+          <div class="ls-shingle-item">
+            <div class="ls-shingle-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div>
+              <h3>Google Guaranteed Setup</h3>
+              <p>We handle the full verification process so your badge goes live as fast as possible.</p>
+            </div>
+          </div>
+          <div class="ls-shingle-item">
+            <div class="ls-shingle-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+            </div>
+            <div>
+              <h3>Lead Dispute Management</h3>
+              <p>We fight every invalid call so your ad spend only goes toward real, qualified leads.</p>
+            </div>
+          </div>
+          <div class="ls-shingle-item">
+            <div class="ls-shingle-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            </div>
+            <div>
+              <h3>Weekly Budget Optimization</h3>
+              <p>Budget and bid settings adjusted weekly to maximize your lead volume at the lowest cost per lead.</p>
+            </div>
+          </div>
+          <div class="ls-shingle-item">
+            <div class="ls-shingle-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <div>
+              <h3>Review Generation Strategy</h3>
+              <p>More 5-star reviews = higher LSA ranking. We implement a system that keeps reviews flowing.</p>
+            </div>
+          </div>
+          <div class="ls-shingle-item">
+            <div class="ls-shingle-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            </div>
+            <div>
+              <h3>Monthly Lead Reports</h3>
+              <p>Clear reports showing total leads, cost per lead, disputes won, and your ranking position.</p>
+            </div>
+          </div>
+          <div class="ls-shingle-item">
+            <div class="ls-shingle-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h3>Fast Onboarding</h3>
+              <p>Most accounts are live and generating leads within 2–3 weeks of signing on.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="ls-section ls-how">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">The Process</span>
+        <h2>How Google Local Service Ads Work</h2>
+        <p>LSAs are the simplest, most cost-effective ad format Google offers for local service businesses — when managed correctly.</p>
+      </div>
+      <div class="ls-how-grid">
+        <div class="ls-how-step">
+          <div class="ls-how-step__num">1</div>
+          <h3>Customer Searches</h3>
+          <p>A local customer types in a service you offer — "plumber near me," "HVAC repair," "electrician in Austin." Your LSA appears at the very top of the results page, above everything else.</p>
+        </div>
+        <div class="ls-how-step">
+          <div class="ls-how-step__num">2</div>
+          <h3>Customer Calls Directly</h3>
+          <p>The customer clicks your ad and calls you directly — or sends a message. They see your Google Guaranteed badge, your reviews, and your business info right on the ad. No website visit needed.</p>
+        </div>
+        <div class="ls-how-step">
+          <div class="ls-how-step__num">3</div>
+          <h3>You Pay For The Lead</h3>
+          <p>You're only charged for that call or message — not for impressions or clicks that went nowhere. If the lead is invalid or irrelevant, we dispute it and get your money back from Google.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAPTURE BANNER -->
+  <section class="ls-section ls-capture">
+    <div class="container ls-capture-inner">
+      <div>
+        <h2>Capture Local Customers At Just The Right Moment</h2>
+        <p>When someone searches for the service you offer, they're ready to hire. LSAs put your business in front of them at that exact moment — with your phone number, reviews, and Google's trust badge all visible before they even click.</p>
+        <p>This is the highest-intent traffic that exists. We make sure your business captures it.</p>
+        <a href="#contact" class="btn btn--primary btn--lg" style="margin-top:8px;">Get a Free LSA Audit</a>
+      </div>
+      <div class="ls-capture-points">
+        <div class="ls-capture-point">
+          <div class="ls-capture-point__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          </div>
+          <div>
+            <h3>Highest-Intent Leads Available</h3>
+            <p>LSA searchers are actively looking to hire right now — not browsing or researching. These are your hottest potential customers.</p>
+          </div>
+        </div>
+        <div class="ls-capture-point">
+          <div class="ls-capture-point__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div>
+            <h3>Instant Credibility Boost</h3>
+            <p>The Google Guaranteed badge tells customers your business has been background-checked and vetted by Google. It converts at a higher rate than any other ad format.</p>
+          </div>
+        </div>
+        <div class="ls-capture-point">
+          <div class="ls-capture-point__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          </div>
+          <div>
+            <h3>Zero Wasted Spend</h3>
+            <p>Every dollar goes to a real lead. Between the pay-per-lead model and our dispute management, your budget works harder than any other channel.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="ls-section ls-faq" id="faq">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">Common Questions</span>
+        <h2>Google Local Service Ads <span class="text--red">FAQ</span></h2>
+      </div>
+      <div class="ls-faq__list">
+
+        <div class="ls-faq__item">
+          <button class="ls-faq__q">
+            What are Google Local Service Ads?
+            <img src="brand assests/the X.png" class="ls-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="ls-faq__a">
+            <p>Google Local Service Ads (LSAs) are a pay-per-lead ad format designed specifically for local service businesses. Unlike traditional Google Ads where you pay per click, LSAs only charge you when a customer directly calls or messages your business through the ad. They appear at the very top of Google's search results — above traditional ads, Maps results, and organic listings — making them the most prominent spot on the page.</p>
+          </div>
+        </div>
+
+        <div class="ls-faq__item">
+          <button class="ls-faq__q">
+            What types of businesses qualify for LSAs?
+            <img src="brand assests/the X.png" class="ls-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="ls-faq__a">
+            <p>Google Local Service Ads are available for a wide range of local service categories including HVAC, plumbing, electrical, roofing, landscaping, pest control, locksmithing, cleaning services, real estate agents, lawyers, financial planners, and more. Google periodically expands the eligible categories. If you're unsure whether your business qualifies, we'll tell you in your free audit call.</p>
+          </div>
+        </div>
+
+        <div class="ls-faq__item">
+          <button class="ls-faq__q">
+            How much do Google Local Service Ads cost?
+            <img src="brand assests/the X.png" class="ls-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="ls-faq__a">
+            <p>LSA costs vary by industry and location. You set a weekly budget and Google charges you per lead — typically ranging from $15 to $150+ per lead depending on your service type and market competitiveness. The beauty of the model is that you control the budget ceiling entirely, and we actively dispute bad leads to make sure you're only paying for contacts that have real potential. Our management fee is separate from your ad spend and is based on your campaign size.</p>
+          </div>
+        </div>
+
+        <div class="ls-faq__item">
+          <button class="ls-faq__q">
+            How long does it take to get approved and go live?
+            <img src="brand assests/the X.png" class="ls-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="ls-faq__a">
+            <p>The Google Guaranteed verification process involves a background check on your business and license verification. In most cases, the process takes 2–4 weeks from start to finish. We handle all of the paperwork and guide you through every step so there are no delays caused by missing documents or missed deadlines. Once approved, your ads can start generating leads within days.</p>
+          </div>
+        </div>
+
+        <div class="ls-faq__item">
+          <button class="ls-faq__q">
+            Can I run LSAs alongside regular Google Ads?
+            <img src="brand assests/the X.png" class="ls-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="ls-faq__a">
+            <p>Yes — and many of our clients do exactly that. LSAs and Google Ads serve different functions. LSAs are pay-per-lead and appear at the very top for high-intent local searches. Traditional Google Ads give you more control over keywords, targeting, and creative, and can capture a wider funnel. Running both together creates a dominant presence across the entire Google results page. We can manage both for you and make sure the budgets are working in harmony.</p>
+          </div>
+        </div>
+
+        <div class="ls-faq__item">
+          <button class="ls-faq__q">
+            What happens if I get a bad or irrelevant lead?
+            <img src="brand assests/the X.png" class="ls-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="ls-faq__a">
+            <p>Google allows you to dispute leads that are outside your service area, for a service you don't offer, spam calls, or wrong numbers. When managed correctly, disputes can recover a meaningful portion of your ad spend. This is one of the biggest advantages of having an experienced agency manage your LSAs — most business owners either don't dispute leads at all or don't do it correctly. We handle all disputes on your behalf as part of our standard management service.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FORM -->
+  <section class="ls-section ls-cta-form" id="contact">
+    <div class="container ls-form-wrap">
+      <div class="ls-form-text">
+        <span class="label-tag">Free LSA Audit</span>
+        <h2>Ready To Only Pay For Real Leads?</h2>
+        <p>Fill out the form and we'll review your business, check if you qualify for LSAs, and put together a custom strategy to get your phone ringing with the right customers.</p>
+        <ul class="ls-form-perks">
+          <li>Free Google LSA eligibility check</li>
+          <li>Competitor analysis included</li>
+          <li>Custom lead budget recommendation</li>
+          <li>No pressure, no obligation</li>
+          <li>Response within 24 hours</li>
+        </ul>
+      </div>
+      <div class="ls-form-card">
+        <h3>Get Your Free LSA Audit</h3>
+        <p>Takes 2 minutes — we'll handle the rest.</p>
+        <form id="lsForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="ls_fname">First Name</label>
+              <input type="text" id="ls_fname" name="fname" placeholder="John" required />
+            </div>
+            <div class="form-group">
+              <label for="ls_lname">Last Name</label>
+              <input type="text" id="ls_lname" name="lname" placeholder="Smith" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="ls_email">Email Address</label>
+            <input type="email" id="ls_email" name="email" placeholder="john@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="ls_phone">Phone Number</label>
+            <input type="tel" id="ls_phone" name="phone" placeholder="(555) 000-0000" />
+          </div>
+          <div class="form-group">
+            <label for="ls_business">Business Website</label>
+            <input type="text" id="ls_business" name="business" placeholder="mycompany.com" />
+          </div>
+          <div class="form-group">
+            <label for="ls_budget">Monthly Budget</label>
+            <select id="ls_budget" name="budget">
+              <option value="">Select your budget range</option>
+              <option>Under $500/mo</option>
+              <option>$500 – $1,500/mo</option>
+              <option>$1,500 – $3,000/mo</option>
+              <option>$3,000 – $6,000/mo</option>
+              <option>$6,000+/mo</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Get in Touch</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo">
+          <img src="brand assests/logovlex.png" alt="Vlex Marketing" style="height:48px;width:auto;display:block;" />
+        </a>
+        <p>Texas-based digital marketing agency built for businesses ready to dominate online.</p>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/vlexmarketing" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@vlexmarketing" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/share/1BEuyUZEoK/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <div>
+          <h5>Services</h5>
+          <ul>
+            <li><a href="paid-ads.html">Paid Ads Management</a></li>
+            <li><a href="seo.html">SEO &amp; Content Marketing</a></li>
+            <li><a href="website-design.html">Website Design</a></li>
+            <li><a href="google-maps.html">Google Maps SEO</a></li>
+            <li><a href="local-service-ads.html">Google Local Service Ads</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Company</h5>
+          <ul>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#results">Results</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2025 Vlex Marketing. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Dropdown outside-click handler
+    document.addEventListener('click', function(e) {
+      var d = document.querySelector('.nav__item--dropdown');
+      if (d && !d.contains(e.target)) d.classList.remove('open');
+    });
+
+    // LSA FAQ accordion
+    document.querySelectorAll('.ls-faq__item').forEach(function(item) {
+      item.querySelector('.ls-faq__q').addEventListener('click', function() {
+        var isOpen = item.classList.contains('open');
+        document.querySelectorAll('.ls-faq__item').forEach(function(i) { i.classList.remove('open'); });
+        if (!isOpen) item.classList.add('open');
+      });
+    });
+
+    // Form submit handler
+    const lsForm = document.getElementById('lsForm');
+    if (lsForm) {
+      lsForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const btn = lsForm.querySelector('button[type="submit"]');
+        btn.textContent = 'Sending…';
+        btn.disabled = true;
+        setTimeout(function() {
+          lsForm.innerHTML = `
+            <div class="form-success">
+              <div style="font-size:3rem;margin-bottom:16px;">🎯</div>
+              <h3>You're In!</h3>
+              <p>We'll review your account and reach out within 24 hours with your free LSA audit. Get ready to start paying only for real leads.</p>
+            </div>
+          `;
+        }, 1200);
+      });
+    }
+  </script>
+
+</body>
+</html>

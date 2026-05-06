@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Maps SEO — Vlex Marketing</title>
+  <meta name="description" content="Vlex Marketing puts your business in the Google Maps 3-Pack so local customers find you first. Texas-based. Results-driven Google Business Profile & Maps SEO." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="google-maps.css" />
+  <style>
+    h1, h2, h3 { text-transform: uppercase !important; }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="brand assests/logovlex.png" alt="Vlex Marketing" />
+      </a>
+      <ul class="nav__links">
+        <li class="nav__item--dropdown">
+          <button class="nav__dropdown-toggle" type="button" onclick="var p=this.closest('.nav__item--dropdown');p.classList.toggle('open');event.stopPropagation();">Services <span class="nav__chevron">▾</span></button>
+          <div class="nav__mega">
+            <div class="mega__main">
+              <a href="paid-ads.html" class="mega__card">
+                <div class="mega__img"><img src="brand assests/DSC00026-3.jpg" alt="Paid Ads Management" /></div>
+                <h4>Paid Ads Management</h4>
+                <p>Google Ads, Meta &amp; TikTok campaigns built to generate qualified leads at scale.</p>
+              </a>
+              <a href="seo.html" class="mega__card">
+                <div class="mega__img"><img src="brand assests/DSC00129.jpg" alt="SEO & Content" /></div>
+                <h4>SEO &amp; Content Marketing</h4>
+                <p>Dominate organic search through technical SEO, authority content, and link building.</p>
+              </a>
+              <a href="website-design.html" class="mega__card">
+                <div class="mega__img"><img src="brand assests/DSC00015.jpg" alt="Website Design" /></div>
+                <h4>Website Design</h4>
+                <p>High-converting websites and landing pages built for speed and measurable ROI.</p>
+              </a>
+            </div>
+            <div class="mega__side">
+              <a href="google-maps.html" class="mega__side-item">
+                <div class="mega__side-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                <div><h4>Google Maps SEO</h4><p>Get to the top of Google Maps so local customers find you first.</p></div>
+              </a>
+              <a href="local-service-ads.html" class="mega__side-item">
+                <div class="mega__side-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg></div>
+                <div><h4>Google Local Service Ads</h4><p>Pay-per-lead ads — only pay when customers actually call you.</p></div>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#results">Results</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn--primary nav__cta">Get in Touch</a>
+      <button class="nav__burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="nav__mobile" id="mobileMenu">
+    <ul>
+      <li><a href="paid-ads.html">Paid Ads Management</a></li>
+      <li><a href="seo.html">SEO &amp; Content Marketing</a></li>
+      <li><a href="website-design.html">Website Design</a></li>
+      <li><a href="google-maps.html">Google Maps SEO</a></li>
+      <li><a href="local-service-ads.html">Google Local Service Ads</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#results">Results</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="gm-hero">
+    <div class="gm-hero__bg">
+      <img src="brand assests/DSC00082.jpg" alt="Google Maps SEO results" />
+    </div>
+    <div class="gm-hero__overlay"></div>
+    <div class="container gm-hero__inner">
+      <p class="gm-hero__breadcrumb">Google Maps SEO</p>
+      <div class="gm-hero__quote">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+        <span>"After 3 months we were in the Google 3-Pack. Calls doubled." — Vlex Client</span>
+      </div>
+      <h1 class="gm-hero__headline">DOMINATE THE GOOGLE MAPS<br>3-PACK &amp; OWN YOUR LOCAL MARKET</h1>
+      <ul class="gm-hero__bullets">
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Rank in the Google Maps 3-Pack for your highest-value keywords
+        </li>
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 19 9 5 6 12 2 12"/></svg>
+          Drive more calls, direction requests, and walk-in customers
+        </li>
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          Beat competitors who show up above you right now
+        </li>
+      </ul>
+      <div class="gm-hero__actions">
+        <a href="#contact" class="btn btn--primary btn--lg">Get in Touch</a>
+      </div>
+    </div>
+    <div class="gm-hero__stats">
+      <div class="container gm-hero__stats-inner">
+        <div class="gm-stat">
+          <strong>46%</strong>
+          <span>of Google searches seek local info</span>
+        </div>
+        <div class="gm-stat-div"></div>
+        <div class="gm-stat">
+          <strong>3-Pack</strong>
+          <span>gets 44% of total local search clicks</span>
+        </div>
+        <div class="gm-stat-div"></div>
+        <div class="gm-stat">
+          <strong>76%</strong>
+          <span>of local searches lead to a visit within 24hrs</span>
+        </div>
+        <div class="gm-stat-div"></div>
+        <div class="gm-stat">
+          <strong>28%</strong>
+          <span>of local searches result in a purchase</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERTISE TWO-COL -->
+  <section class="gm-section">
+    <div class="container gm-two-col">
+      <div class="gm-two-col__text">
+        <span class="label-tag">Cutting-Edge Google Maps SEO</span>
+        <h2>Stop Getting Skipped.<br>Start Owning Your Area.</h2>
+        <p>Most local businesses either don't have a Google Business Profile or have one that's been ignored for years. Your profile is basically the front door to your business online — if it's weak, customers walk right past you and into your competitor's door.</p>
+        <p>At Vlex Marketing, we fully optimize every signal Google uses to rank local businesses. From your GBP profile to local citations, review generation to on-page local SEO — we leave nothing on the table.</p>
+        <ul class="gm-checklist">
+          <li>Google Business Profile full optimization</li>
+          <li>Local keyword targeting &amp; competitor analysis</li>
+          <li>Citation building &amp; NAP consistency cleanup</li>
+          <li>Review generation strategy &amp; management</li>
+          <li>Local landing page SEO</li>
+          <li>Weekly GBP posting &amp; photo updates</li>
+        </ul>
+        <a href="#contact" class="btn btn--primary">Get a Free Maps Audit</a>
+      </div>
+      <div class="gm-cards">
+        <div class="gm-card">
+          <div class="gm-card__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>GBP Optimization</h3>
+          <p>We max out every field, category, and attribute on your Google Business Profile to signal authority to Google.</p>
+        </div>
+        <div class="gm-card">
+          <div class="gm-card__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h3>Review Strategy</h3>
+          <p>We implement a proven system that consistently gets you 5-star reviews without spamming your customers.</p>
+        </div>
+        <div class="gm-card">
+          <div class="gm-card__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <h3>Ranking Tracking</h3>
+          <p>We monitor your keyword rankings across your entire service area and report real progress every month.</p>
+        </div>
+        <div class="gm-card">
+          <div class="gm-card__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
+          <h3>Citation Building</h3>
+          <p>We list and clean up your business across 50+ directories so every signal points to the same accurate info.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="gm-section gm-how">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">The Process</span>
+        <h2>How We Get You Into The 3-Pack</h2>
+        <p>Google ranks local businesses based on three core signals. We dominate all three.</p>
+      </div>
+      <div class="gm-steps">
+        <div class="gm-step">
+          <div class="gm-step__num">1</div>
+          <h3>Relevance</h3>
+          <p>We optimize your GBP categories, services, keywords, and on-page content so Google understands exactly what you do and who you serve — making your business relevant to the searches that matter most.</p>
+        </div>
+        <div class="gm-step">
+          <div class="gm-step__num">2</div>
+          <h3>Distance &amp; Prominence</h3>
+          <p>We build local authority through citations, reviews, backlinks, and GBP signals so Google sees your business as the most trustworthy option in your area — above every competitor.</p>
+        </div>
+        <div class="gm-step">
+          <div class="gm-step__num">3</div>
+          <h3>Engagement &amp; Activity</h3>
+          <p>We keep your profile active with weekly posts, fresh photos, Q&amp;A responses, and review replies — signaling to Google that your business is open, engaged, and worth showing first.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3-PACK IMPACT -->
+  <section class="gm-section gm-impact">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">What It Means For Your Business</span>
+        <h2>What Happens When You're In The 3-Pack</h2>
+        <p>Being in the Google Maps 3-Pack isn't a vanity metric — it's a direct pipeline to more customers.</p>
+      </div>
+      <div class="gm-impact-grid">
+        <div class="gm-impact-card">
+          <span class="gm-impact-card__num">44%</span>
+          <h3>More Clicks</h3>
+          <p>The 3-Pack captures nearly half of all local search clicks. If you're not in it, you're invisible to almost half your market.</p>
+        </div>
+        <div class="gm-impact-card">
+          <span class="gm-impact-card__num">2–4x</span>
+          <h3>More Inbound Calls</h3>
+          <p>Businesses that move into the 3-Pack see a 2–4x increase in direct calls from new customers who found them on Maps.</p>
+        </div>
+        <div class="gm-impact-card">
+          <span class="gm-impact-card__num">78%</span>
+          <h3>Trust Advantage</h3>
+          <p>78% of consumers trust Google reviews as much as personal recommendations. Top-3 placement with strong reviews is instant credibility.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOU GET (SHINGLE BOX) -->
+  <section class="gm-section gm-get">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">What's Included</span>
+        <h2>Everything We Do On Your Account</h2>
+        <p>A complete, done-for-you Google Maps SEO service with nothing outsourced.</p>
+      </div>
+    </div>
+    <div class="gm-shingle-wrap">
+      <div class="gm-shingle-wrap__bg"></div>
+      <div class="gm-shingle-wrap__overlay"></div>
+      <div class="gm-shingle-content">
+        <h2>Your Complete Google Maps SEO System</h2>
+        <p>Every deliverable, handled by our in-house team. No white-label. No cutting corners.</p>
+        <div class="gm-shingle-list">
+          <div class="gm-shingle-item">
+            <div class="gm-shingle-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h3>GBP Full Optimization</h3>
+              <p>Every field, category, attribute, service, and photo — done right from day one.</p>
+            </div>
+          </div>
+          <div class="gm-shingle-item">
+            <div class="gm-shingle-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <div>
+              <h3>Review Generation System</h3>
+              <p>Automated follow-ups that consistently grow your 5-star reviews month over month.</p>
+            </div>
+          </div>
+          <div class="gm-shingle-item">
+            <div class="gm-shingle-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 19 9 5 6 12 2 12"/></svg>
+            </div>
+            <div>
+              <h3>Weekly GBP Posts &amp; Photos</h3>
+              <p>Fresh content published to your profile every week to stay active and visible.</p>
+            </div>
+          </div>
+          <div class="gm-shingle-item">
+            <div class="gm-shingle-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <div>
+              <h3>50+ Citation Submissions</h3>
+              <p>We list your business across the top directories with consistent NAP data.</p>
+            </div>
+          </div>
+          <div class="gm-shingle-item">
+            <div class="gm-shingle-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            </div>
+            <div>
+              <h3>Local Landing Pages</h3>
+              <p>SEO-optimized pages targeting your city and service area to reinforce local relevance.</p>
+            </div>
+          </div>
+          <div class="gm-shingle-item">
+            <div class="gm-shingle-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><bar/><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            </div>
+            <div>
+              <h3>Monthly Ranking Reports</h3>
+              <p>Transparent reports showing exactly where you rank and the progress we're making.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARISON TABLE -->
+  <section class="gm-section gm-compare">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">Why Vlex</span>
+        <h2>Vlex vs. The Other Guys</h2>
+        <p>Not all Google Maps SEO agencies are equal. Here's what separates us from the rest.</p>
+      </div>
+      <div class="gm-table-wrap">
+        <table class="gm-table">
+          <thead>
+            <tr>
+              <th>What You Get</th>
+              <th class="th--vlex th--vlex-col">Vlex Marketing</th>
+              <th>Typical Agency</th>
+              <th>Freelancer</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Full GBP optimization from day 1</td>
+              <td class="td--vlex"><span class="gm-check">✓</span></td>
+              <td><span class="gm-cross">✗</span></td>
+              <td><span class="gm-cross">✗</span></td>
+            </tr>
+            <tr>
+              <td>Weekly posts &amp; photo updates</td>
+              <td class="td--vlex"><span class="gm-check">✓</span></td>
+              <td><span class="gm-cross">✗</span></td>
+              <td><span class="gm-cross">✗</span></td>
+            </tr>
+            <tr>
+              <td>Dedicated account strategist</td>
+              <td class="td--vlex"><span class="gm-check">✓</span></td>
+              <td><span class="gm-cross">✗</span></td>
+              <td><span class="gm-cross">✗</span></td>
+            </tr>
+            <tr>
+              <td>Transparent monthly reporting</td>
+              <td class="td--vlex"><span class="gm-check">✓</span></td>
+              <td><span class="gm-check">✓</span></td>
+              <td><span class="gm-cross">✗</span></td>
+            </tr>
+            <tr>
+              <td>Review generation system</td>
+              <td class="td--vlex"><span class="gm-check">✓</span></td>
+              <td><span class="gm-cross">✗</span></td>
+              <td><span class="gm-cross">✗</span></td>
+            </tr>
+            <tr>
+              <td>50+ citation submissions</td>
+              <td class="td--vlex"><span class="gm-check">✓</span></td>
+              <td><span class="gm-check">✓</span></td>
+              <td><span class="gm-cross">✗</span></td>
+            </tr>
+            <tr>
+              <td>No long-term lock-in contracts</td>
+              <td class="td--vlex"><span class="gm-check">✓</span></td>
+              <td><span class="gm-cross">✗</span></td>
+              <td><span class="gm-check">✓</span></td>
+            </tr>
+            <tr>
+              <td>Texas-based, in-house team</td>
+              <td class="td--vlex"><span class="gm-check">✓</span></td>
+              <td><span class="gm-cross">✗</span></td>
+              <td><span class="gm-cross">✗</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY TRUST VLEX -->
+  <section class="gm-section gm-warning">
+    <div class="container gm-warning-inner">
+      <div>
+        <h2>Who Is Vlex &amp; Why Should You Trust Us?</h2>
+        <p>We're a Texas-based digital marketing agency built exclusively for local service businesses. We don't work with everyone — we take on clients we know we can get results for, and we're selective because your success is our reputation.</p>
+        <p>Every Google Maps campaign we run is managed in-house by a dedicated strategist. No off-shore outsourcing, no cookie-cutter templates — just real strategy, executed with precision, reported transparently every month.</p>
+        <a href="#contact" class="btn btn--primary btn--lg" style="margin-top:12px;">Get a Free Maps Audit</a>
+      </div>
+      <div class="gm-warning-points">
+        <div class="gm-warning-point">
+          <div class="gm-warning-point__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div>
+            <h3>No Cookie-Cutter Campaigns</h3>
+            <p>Every strategy is built from scratch for your business, your market, and your competitors. No copy-paste playbooks.</p>
+          </div>
+        </div>
+        <div class="gm-warning-point">
+          <div class="gm-warning-point__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <div>
+            <h3>Results You Can Measure</h3>
+            <p>We track calls, direction requests, profile views, and keyword rankings — so you always know what your investment is doing.</p>
+          </div>
+        </div>
+        <div class="gm-warning-point">
+          <div class="gm-warning-point__icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <h3>Fast Onboarding, Faster Results</h3>
+            <p>Most clients see measurable ranking improvements within 60–90 days. We move quickly and don't waste your time.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="gm-section gm-faq" id="faq">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">Common Questions</span>
+        <h2>Google Maps SEO <span class="text--red">FAQ</span></h2>
+      </div>
+      <div class="gm-faq__list">
+
+        <div class="gm-faq__item">
+          <button class="gm-faq__q">
+            How long does it take to rank in the Google Maps 3-Pack?
+            <img src="brand assests/the X.png" class="gm-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="gm-faq__a">
+            <p>Most clients start seeing movement in their rankings within 60–90 days, with consistent 3-Pack appearances for top keywords happening in the 3–6 month range. The exact timeline depends on your current GBP condition, competition level, and how many reviews and citations you already have. We'll give you a realistic projection during your free Maps audit.</p>
+          </div>
+        </div>
+
+        <div class="gm-faq__item">
+          <button class="gm-faq__q">
+            What's the difference between Google Maps SEO and regular SEO?
+            <img src="brand assests/the X.png" class="gm-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="gm-faq__a">
+            <p>Regular SEO focuses on ranking your website pages in Google's organic search results. Google Maps SEO (also called local SEO or GBP SEO) focuses on ranking your Google Business Profile in the Maps 3-Pack — the three business listings that appear at the top of local searches with a map. Both are valuable, but Maps SEO tends to drive direct calls and visits faster since users can click your phone number or get directions immediately.</p>
+          </div>
+        </div>
+
+        <div class="gm-faq__item">
+          <button class="gm-faq__q">
+            Do I need a physical location to rank on Google Maps?
+            <img src="brand assests/the X.png" class="gm-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="gm-faq__a">
+            <p>You need a verified Google Business Profile, which typically requires a physical address. However, if you serve customers at their location (like a plumber or landscaper), you can set a service area instead of showing your address publicly. We'll help you set up and verify your profile correctly for your business type so you can rank in the areas you actually serve.</p>
+          </div>
+        </div>
+
+        <div class="gm-faq__item">
+          <button class="gm-faq__q">
+            How important are reviews for Google Maps rankings?
+            <img src="brand assests/the X.png" class="gm-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="gm-faq__a">
+            <p>Reviews are one of the top ranking factors for Google Maps. The quantity, recency, and quality of your reviews all send signals to Google about your business's credibility and relevance. Beyond rankings, reviews directly affect click-through rates — a business with 4.8 stars and 150 reviews will always outperform a competitor with 3 stars, even if they're the same ranking position. Our review generation system helps you build a consistent stream of genuine 5-star reviews.</p>
+          </div>
+        </div>
+
+        <div class="gm-faq__item">
+          <button class="gm-faq__q">
+            Can you rank me in multiple cities?
+            <img src="brand assests/the X.png" class="gm-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="gm-faq__a">
+            <p>Yes. For businesses that serve multiple cities or a wide service area, we create targeted local landing pages on your website for each location you want to rank in. Combined with your optimized GBP service area settings and citation building, this multi-location strategy allows you to show up in Maps searches across your entire target market — not just the city where your address is listed.</p>
+          </div>
+        </div>
+
+        <div class="gm-faq__item">
+          <button class="gm-faq__q">
+            What does your Google Maps SEO service cost?
+            <img src="brand assests/the X.png" class="gm-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="gm-faq__a">
+            <p>Our Google Maps SEO pricing depends on your market competitiveness, service area size, and current GBP condition. We custom-price every engagement after a free audit so you're only paying for what your situation actually requires — not a bloated package with services you don't need. Fill out the form below and we'll get back to you within 24 hours with a custom proposal.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FORM -->
+  <section class="gm-section gm-cta-form" id="contact">
+    <div class="container gm-form-wrap">
+      <div class="gm-form-text">
+        <span class="label-tag">Free Maps Audit</span>
+        <h2>Ready To Own Your Local Market?</h2>
+        <p>Fill out the form and we'll review your Google Business Profile, check where you rank, and put together a custom strategy to get you into the 3-Pack.</p>
+        <ul class="gm-form-perks">
+          <li>Free Google Maps ranking audit</li>
+          <li>Competitor analysis included</li>
+          <li>Custom strategy — not a template</li>
+          <li>No pressure, no obligation</li>
+          <li>Response within 24 hours</li>
+        </ul>
+      </div>
+      <div class="gm-form-card">
+        <h3>Get Your Free Maps Audit</h3>
+        <p>Takes 2 minutes — we'll handle the rest.</p>
+        <form id="gmForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="gm_fname">First Name</label>
+              <input type="text" id="gm_fname" name="fname" placeholder="John" required />
+            </div>
+            <div class="form-group">
+              <label for="gm_lname">Last Name</label>
+              <input type="text" id="gm_lname" name="lname" placeholder="Smith" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="gm_email">Email Address</label>
+            <input type="email" id="gm_email" name="email" placeholder="john@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="gm_phone">Phone Number</label>
+            <input type="tel" id="gm_phone" name="phone" placeholder="(555) 000-0000" />
+          </div>
+          <div class="form-group">
+            <label for="gm_business">Business Website</label>
+            <input type="text" id="gm_business" name="business" placeholder="mycompany.com" />
+          </div>
+          <div class="form-group">
+            <label for="gm_budget">Monthly Budget</label>
+            <select id="gm_budget" name="budget">
+              <option value="">Select your budget range</option>
+              <option>Under $500/mo</option>
+              <option>$500 – $1,500/mo</option>
+              <option>$1,500 – $3,000/mo</option>
+              <option>$3,000 – $6,000/mo</option>
+              <option>$6,000+/mo</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Get in Touch</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo">
+          <img src="brand assests/logovlex.png" alt="Vlex Marketing" style="height:48px;width:auto;display:block;" />
+        </a>
+        <p>Texas-based digital marketing agency built for businesses ready to dominate online.</p>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/vlexmarketing" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@vlexmarketing" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/share/1BEuyUZEoK/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <div>
+          <h5>Services</h5>
+          <ul>
+            <li><a href="paid-ads.html">Paid Ads Management</a></li>
+            <li><a href="seo.html">SEO &amp; Content Marketing</a></li>
+            <li><a href="website-design.html">Website Design</a></li>
+            <li><a href="google-maps.html">Google Maps SEO</a></li>
+            <li><a href="local-service-ads.html">Google Local Service Ads</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Company</h5>
+          <ul>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#results">Results</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2025 Vlex Marketing. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Dropdown outside-click handler
+    document.addEventListener('click', function(e) {
+      var d = document.querySelector('.nav__item--dropdown');
+      if (d && !d.contains(e.target)) d.classList.remove('open');
+    });
+
+    // Google Maps FAQ accordion
+    document.querySelectorAll('.gm-faq__item').forEach(function(item) {
+      item.querySelector('.gm-faq__q').addEventListener('click', function() {
+        var isOpen = item.classList.contains('open');
+        document.querySelectorAll('.gm-faq__item').forEach(function(i) { i.classList.remove('open'); });
+        if (!isOpen) item.classList.add('open');
+      });
+    });
+
+    // Form submit handler
+    const gmForm = document.getElementById('gmForm');
+    if (gmForm) {
+      gmForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const btn = gmForm.querySelector('button[type="submit"]');
+        btn.textContent = 'Sending…';
+        btn.disabled = true;
+        setTimeout(function() {
+          gmForm.innerHTML = `
+            <div class="form-success">
+              <div style="font-size:3rem;margin-bottom:16px;">🎯</div>
+              <h3>You're In!</h3>
+              <p>We'll review your Google Business Profile and reach out within 24 hours with your free Maps audit. Get ready to dominate your local market.</p>
+            </div>
+          `;
+        }, 1200);
+      });
+    }
+  </script>
+
+</body>
+</html>

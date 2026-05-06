@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Design — Vlex Marketing</title>
+  <meta name="description" content="Vlex Marketing builds high-converting, professionally designed websites for businesses ready to dominate online. Texas-based. Results-driven." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="website-design.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="brand assests/logovlex.png" alt="Vlex Marketing" />
+      </a>
+      <ul class="nav__links">
+        <li class="nav__item--dropdown">
+          <button class="nav__dropdown-toggle" type="button" onclick="var p=this.closest('.nav__item--dropdown');p.classList.toggle('open');event.stopPropagation();">Services <span class="nav__chevron">▾</span></button>
+          <div class="nav__mega">
+            <div class="mega__main">
+              <a href="#" class="mega__card">
+                <div class="mega__img"><img src="brand assests/DSC00026-3.jpg" alt="Paid Ads Management" /></div>
+                <h4>Paid Ads Management</h4>
+                <p>Google Ads, Meta &amp; TikTok campaigns built to generate qualified leads at scale.</p>
+              </a>
+              <a href="seo.html" class="mega__card">
+                <div class="mega__img"><img src="brand assests/DSC00129.jpg" alt="SEO & Content" /></div>
+                <h4>SEO &amp; Content Marketing</h4>
+                <p>Dominate organic search through technical SEO, authority content, and link building.</p>
+              </a>
+              <a href="website-design.html" class="mega__card">
+                <div class="mega__img"><img src="brand assests/DSC00015.jpg" alt="Website Design" /></div>
+                <h4>Website Design</h4>
+                <p>High-converting websites and landing pages built for speed and measurable ROI.</p>
+              </a>
+            </div>
+            <div class="mega__side">
+              <a href="google-maps.html" class="mega__side-item">
+                <div class="mega__side-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                <div><h4>Google Maps SEO</h4><p>Get to the top of Google Maps so local customers find you first.</p></div>
+              </a>
+              <a href="local-service-ads.html" class="mega__side-item">
+                <div class="mega__side-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg></div>
+                <div><h4>Google Local Service Ads</h4><p>Pay-per-lead ads — only pay when customers actually call you.</p></div>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#results">Results</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <a href="index.html#contact" class="btn btn--primary nav__cta">Get a Free Audit</a>
+      <button class="nav__burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="wd-hero">
+    <div class="wd-hero__bg">
+      <img src="brand assests/DSC00129.jpg" alt="Vlex team on rooftop" />
+    </div>
+    <div class="wd-hero__overlay"></div>
+    <div class="container wd-hero__inner">
+      <p class="wd-hero__breadcrumb">Website Design</p>
+      <div class="wd-hero__quote">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+        <span>"Impressively thorough and detailed with the entire process" — and the results prove it.</span>
+      </div>
+      <h1 class="wd-hero__headline">WHAT A CUSTOM WEBSITE CAN DO FOR YOUR BUSINESS</h1>
+      <ul class="wd-hero__bullets">
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 19 9 5 6 12 2 12"/></svg>
+          Designed to help your ideal customers turn into closed sales
+        </li>
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 L8 9 L8 16 L12 21 L16 16 L16 9 Z"/><path d="M8 12 L5 15 L5 17 L8 15"/><path d="M16 12 L19 15 L19 17 L16 15"/><circle cx="12" cy="10" r="2"/></svg>
+          Support your SEO &amp; Paid Ads efforts with a high-functioning site
+        </li>
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          Designed to be mobile-friendly, responsive, &amp; fast
+        </li>
+      </ul>
+      <div class="wd-hero__actions">
+        <a href="#contact" class="btn btn--primary btn--lg">Get in Touch</a>
+      </div>
+    </div>
+    <div class="wd-hero__stats">
+      <div class="container wd-hero__stats-inner">
+        <div class="wd-stat">
+          <strong>83%</strong>
+          <span>of users judge credibility by website design</span>
+        </div>
+        <div class="wd-stat-div"></div>
+        <div class="wd-stat">
+          <strong>3x</strong>
+          <span>more leads with a conversion-optimized site</span>
+        </div>
+        <div class="wd-stat-div"></div>
+        <div class="wd-stat">
+          <strong>57%</strong>
+          <span>won't recommend a poorly designed mobile site</span>
+        </div>
+        <div class="wd-stat-div"></div>
+        <div class="wd-stat">
+          <strong>2.4s</strong>
+          <span>max load time before visitors leave for good</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT A CUSTOM SITE CAN DO -->
+  <section class="wd-section wd-what">
+    <div class="container wd-two-col">
+      <div class="wd-two-col__text">
+        <span class="label-tag">Why It Matters</span>
+        <h2>What a Custom Website Can Do for Your Business</h2>
+        <p>Most business websites look like they were built in 2012 and function like it too. Your website is your #1 sales tool — it works 24/7, and if it isn't converting, you're losing money every single day.</p>
+        <p>At Vlex Marketing, we don't build pretty websites. We build <strong>revenue-generating machines</strong> designed around your customer's journey, your market, and your growth goals.</p>
+        <ul class="wd-checklist">
+          <li>Turn more visitors into paying customers</li>
+          <li>Rank higher on Google with SEO-first architecture</li>
+          <li>Build instant credibility and trust with your audience</li>
+          <li>Load fast on every device — especially mobile</li>
+          <li>Track every lead, call, and form submission</li>
+          <li>Outperform every competitor in your market</li>
+        </ul>
+      </div>
+      <div class="wd-two-col__visual">
+        <div class="wd-mockup">
+          <div class="wd-mockup__bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="wd-mockup__screen">
+            <img src="brand assests/DSC00129.jpg" alt="Website on screen" />
+            <div class="wd-mockup__overlay">
+              <div class="wd-mockup__tag">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                <span>+347% Lead Increase</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GET THE WEBSITE YOU WANT -->
+  <section class="wd-section wd-features">
+    <div class="container">
+
+      <!-- Header + 3 bullet items on top -->
+      <div class="wd-features__header">
+        <span class="label-tag label-tag--light">What You Get</span>
+        <h2>Get the Website You Want — <span class="text--red">With Less Friction</span></h2>
+        <p>Investing in a custom-built site might seem like a luxury, but it's time to reframe how you think about your website. Our proven <strong>Winning Website Formula</strong> is built around your business, your market, and your customers.</p>
+      </div>
+
+      <div class="wd-bullets-row">
+        <div class="wd-bullet-item">
+          <div class="wd-bullet-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <h4>Time-Saving Process</h4>
+            <p>Don't waste time explaining your business model to a non-focused agency. Let's focus on saving you time and getting you the results you want.</p>
+          </div>
+        </div>
+        <div class="wd-bullet-item">
+          <div class="wd-bullet-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="13" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+          </div>
+          <div>
+            <h4>Your Website is a Business Tool</h4>
+            <p>We build with SEO in mind from day one. Your website generates leads and presents you as a professional force in the digital world.</p>
+          </div>
+        </div>
+        <div class="wd-bullet-item">
+          <div class="wd-bullet-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <div>
+            <h4>Communication Professionals</h4>
+            <p>Customers make decisions based on professionalism. Your website is often the first thing they see — make it count.</p>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /container -->
+
+      <!-- Wide shingle rectangle with 3 pillar cards inside — full width -->
+      <div class="wd-shingle-box">
+        <div class="wd-shingle-inner">
+          <div class="wd-pillar">
+            <div class="wd-pillar__icon">
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>User Experience First</h3>
+            <p>Many websites forget about the customer. Ours are readable, interactive, modern, and built to clearly guide visitors toward taking the next step.</p>
+          </div>
+          <div class="wd-pillar-div"></div>
+          <div class="wd-pillar">
+            <div class="wd-pillar__icon">
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <h3>Built for Google</h3>
+            <p>A beautiful site no one finds isn't working for you. Every site we build includes technical SEO, fast load times, and clean code that ranks.</p>
+          </div>
+          <div class="wd-pillar-div"></div>
+          <div class="wd-pillar">
+            <div class="wd-pillar__icon">
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+            </div>
+            <h3>Growth-Mode Minded</h3>
+            <p>You need a website that grows with your business. Every section is strategic, flexible, and scalable — built to keep up as you scale.</p>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <!-- PROBLEM / SOLUTION -->
+  <section class="wd-section wd-problem">
+    <div class="container">
+      <div class="section__header section__header--light">
+        <span class="label-tag label-tag--light">The Reality</span>
+        <h2>From a Broken Website to a <span class="text--red">Revenue-Generating Machine</span></h2>
+      </div>
+      <div class="wd-ps-grid">
+        <div class="wd-ps-card wd-ps-card--problem">
+          <div class="wd-ps-card__label">The Problem</div>
+          <h3>Your current website is costing you money</h3>
+          <ul class="wd-ps-list">
+            <li>Loads slowly and drives visitors away</li>
+            <li>Looks outdated — customers don't trust it</li>
+            <li>Not showing up on Google at all</li>
+            <li>No clear call-to-action — visitors don't know what to do</li>
+            <li>Broken on mobile — over half your traffic wasted</li>
+            <li>No tracking — you have no idea what's working</li>
+            <li>Template site that looks like every competitor</li>
+          </ul>
+        </div>
+        <div class="wd-ps-card wd-ps-card--solution">
+          <div class="wd-ps-card__label">The Vlex Solution</div>
+          <h3>A website that works as hard as you do</h3>
+          <ul class="wd-ps-list">
+            <li>Sub-2-second load times on all devices</li>
+            <li>Premium custom design that builds instant trust</li>
+            <li>SEO-optimized from page 1 to rank on Google</li>
+            <li>Strategic CTAs that guide visitors to convert</li>
+            <li>100% mobile-first — perfect on every screen</li>
+            <li>Full analytics, call tracking &amp; lead reporting</li>
+            <li>Completely unique — built only for your brand</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY VLEX -->
+  <section class="wd-section wd-why">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">Why Vlex</span>
+        <h2>Why Work With a <span class="text--red">Results-Driven Agency?</span></h2>
+        <p>We don't pretend to be generalists — that's not how you win. We're 100% dedicated to delivering results for our clients. We know what it takes to build a site that converts and get you a real return on your investment.</p>
+      </div>
+
+      <div class="wd-compare">
+
+        <!-- Column headers -->
+        <div class="wd-compare__head">
+          <div class="wd-compare__head-blank"></div>
+          <div class="wd-compare__head-col wd-compare__head-col--vlex">
+            <img src="brand assests/logovlex.png" alt="Vlex Marketing" class="wd-compare__logo" />
+          </div>
+          <div class="wd-compare__head-col">
+            <span class="wd-compare__col-label">Scammy Companies</span>
+          </div>
+          <div class="wd-compare__head-col">
+            <span class="wd-compare__col-label">Freelancers</span>
+          </div>
+        </div>
+
+        <!-- Row 1 -->
+        <div class="wd-compare__row">
+          <div class="wd-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            Point of Contact
+          </div>
+          <div class="wd-compare__cell wd-compare__cell--vlex">Dedicated Account &amp; Project Manager</div>
+          <div class="wd-compare__cell">No response or automated communication</div>
+          <div class="wd-compare__cell">Divided between employees with unclear responsibilities</div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="wd-compare__row">
+          <div class="wd-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            Information Gathering
+          </div>
+          <div class="wd-compare__cell wd-compare__cell--vlex">In-depth strategy sessions &amp; design reviews</div>
+          <div class="wd-compare__cell">"One-size-fits-all" with no real meetings</div>
+          <div class="wd-compare__cell">Unorganized and difficult to prioritize among other tasks</div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="wd-compare__row">
+          <div class="wd-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+            Customization
+          </div>
+          <div class="wd-compare__cell wd-compare__cell--vlex">Polished, branded &amp; fully custom website</div>
+          <div class="wd-compare__cell">Little attention to detail or personalization</div>
+          <div class="wd-compare__cell">Limited by their skill set and selected theme</div>
+        </div>
+
+        <!-- Row 4 -->
+        <div class="wd-compare__row">
+          <div class="wd-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            Maintenance
+          </div>
+          <div class="wd-compare__cell wd-compare__cell--vlex">Ongoing optimization, security &amp; updates</div>
+          <div class="wd-compare__cell">Afterthought or not an available service</div>
+          <div class="wd-compare__cell">Highly time-consuming and usually neglected</div>
+        </div>
+
+        <!-- Row 5 -->
+        <div class="wd-compare__row">
+          <div class="wd-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            Performance
+          </div>
+          <div class="wd-compare__cell wd-compare__cell--vlex">Designed for best conversion, speed &amp; UX</div>
+          <div class="wd-compare__cell">Unreliable — poor load times &amp; low conversion</div>
+          <div class="wd-compare__cell">Limited functionality that hurts rankings &amp; traffic</div>
+        </div>
+
+        <!-- Row 6 -->
+        <div class="wd-compare__row wd-compare__row--last">
+          <div class="wd-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Industry Knowledge
+          </div>
+          <div class="wd-compare__cell wd-compare__cell--vlex">100% focused on digital marketing &amp; growth</div>
+          <div class="wd-compare__cell">Pay to switch you with industry-targeted tactics</div>
+          <div class="wd-compare__cell">High skill, but difficult to think outside their niche</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="wd-section wd-process" id="process">
+    <div class="container">
+      <div class="section__header section__header--light">
+        <span class="label-tag label-tag--light">How We Work</span>
+        <h2>The Vlex <span class="text--red">Website Process</span></h2>
+        <p>A clear, proven process from discovery to launch — and beyond.</p>
+      </div>
+      <div class="wd-process__list">
+        <div class="wd-process__item">
+          <div class="wd-process__num">01</div>
+          <div class="wd-process__body">
+            <h3>Discovery &amp; Strategy</h3>
+            <p>We deep dive into your business, competitors, and target customer. We identify what your site needs to say, show, and do to win in your market.</p>
+          </div>
+        </div>
+        <div class="wd-process__item">
+          <div class="wd-process__num">02</div>
+          <div class="wd-process__body">
+            <h3>Wireframe &amp; Architecture</h3>
+            <p>Before any design, we map out the full site structure and user flow. Every page, every section, every CTA — planned with conversion in mind.</p>
+          </div>
+        </div>
+        <div class="wd-process__item">
+          <div class="wd-process__num">03</div>
+          <div class="wd-process__body">
+            <h3>Custom Design</h3>
+            <p>Our designers build your site visually — matching your brand, industry, and audience. You review, approve, and we refine until it's exactly right.</p>
+          </div>
+        </div>
+        <div class="wd-process__item">
+          <div class="wd-process__num">04</div>
+          <div class="wd-process__body">
+            <h3>Development &amp; Build</h3>
+            <p>We code your site for speed, SEO, and performance. Clean code, fast load times, fully responsive across all devices and screen sizes.</p>
+          </div>
+        </div>
+        <div class="wd-process__item">
+          <div class="wd-process__num">05</div>
+          <div class="wd-process__body">
+            <h3>Testing &amp; Quality Check</h3>
+            <p>Every link, form, page, and pixel is tested before launch. We check speed scores, mobile rendering, browser compatibility, and lead capture.</p>
+          </div>
+        </div>
+        <div class="wd-process__item">
+          <div class="wd-process__num">06</div>
+          <div class="wd-process__body">
+            <h3>Launch &amp; Optimize</h3>
+            <p>Go live. We monitor performance, set up analytics, and continue optimizing your site post-launch to keep improving conversion rates over time.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="wd-section wd-data">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">The Numbers</span>
+        <h2>The Real Data Behind <span class="text--red">Websites That Win</span></h2>
+        <p>These aren't opinions — they're industry statistics that show exactly why your website is either your greatest asset or your biggest liability.</p>
+      </div>
+      <div class="wd-data__grid">
+        <div class="wd-data__card">
+          <div class="wd-data__number">83%</div>
+          <p>of consumers say a business's website affects how much they trust that company</p>
+        </div>
+        <div class="wd-data__card">
+          <div class="wd-data__number">57%</div>
+          <p>of users say they won't recommend a business with a poorly designed mobile website</p>
+        </div>
+        <div class="wd-data__card">
+          <div class="wd-data__number">2.5M+</div>
+          <p>dollars in revenue generated across our clients through conversion-optimized web design</p>
+        </div>
+        <div class="wd-data__card">
+          <div class="wd-data__number">188%</div>
+          <p>average increase in qualified leads after switching to a Vlex-built conversion website</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="wd-section wd-reviews">
+    <div class="container">
+      <div class="section__header section__header--light">
+        <span class="label-tag label-tag--light">Client Reviews</span>
+        <h2>What Our Clients Say About <span class="text--red">Their New Websites</span></h2>
+      </div>
+      <div class="wd-reviews__grid">
+        <div class="wd-review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Vlex built us a site that actually gets us calls. Within the first month we had 3x more leads than our old website ever generated. The design is clean, fast, and our customers love it."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JR</div>
+            <div><strong>James Rodriguez</strong><span>CEO, Prime Realty TX</span></div>
+          </div>
+        </div>
+        <div class="wd-review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Finally a website I'm proud to send people to. The Vlex team understood exactly what I needed — professional, fast, and built to convert. The process was smooth and the results speak for themselves."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SM</div>
+            <div><strong>Sarah Mitchell</strong><span>Founder, Bloom Aesthetics</span></div>
+          </div>
+        </div>
+        <div class="wd-review-card">
+          <div class="stars">★★★★★</div>
+          <p>"Our old site was embarrassing. The new one from Vlex looks like a million-dollar company — and it's producing results to match. More calls, more form fills, more business. Worth every penny."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">DK</div>
+            <div><strong>Daniel Kim</strong><span>Owner, DK Auto Group</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="wd-section wd-faq">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">Common Questions</span>
+        <h2>Website Design <span class="text--red">FAQ</span></h2>
+      </div>
+      <div class="wd-faq__list">
+        <div class="wd-faq__item">
+          <button class="wd-faq__q">
+            How long does it take to build a website? <img src="brand assests/the X.png" class="wd-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="wd-faq__a">
+            <p>Most websites are completed within 4–6 weeks from kickoff to launch. Timeline depends on the size and complexity of the project, as well as how quickly you provide feedback and approvals during the design phase.</p>
+          </div>
+        </div>
+        <div class="wd-faq__item">
+          <button class="wd-faq__q">
+            Do you use templates or build custom? <img src="brand assests/the X.png" class="wd-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="wd-faq__a">
+            <p>Every website we build is 100% custom — designed and developed specifically for your business. We never use pre-made templates. Your site will be unique to your brand, not copied from a theme library.</p>
+          </div>
+        </div>
+        <div class="wd-faq__item">
+          <button class="wd-faq__q">
+            Will my website show up on Google? <img src="brand assests/the X.png" class="wd-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="wd-faq__a">
+            <p>Yes — we build with SEO-first architecture from day one. Every page is structured with proper headings, meta tags, schema markup, fast load speeds, and clean code that search engines love. We also offer ongoing SEO services to keep climbing the rankings.</p>
+          </div>
+        </div>
+        <div class="wd-faq__item">
+          <button class="wd-faq__q">
+            Can I update the website myself after launch? <img src="brand assests/the X.png" class="wd-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="wd-faq__a">
+            <p>Absolutely. We build on easy-to-use platforms and provide training so you can make basic updates yourself. For larger changes, our team is always available to help — we offer ongoing support packages for clients who prefer hands-off management.</p>
+          </div>
+        </div>
+        <div class="wd-faq__item">
+          <button class="wd-faq__q">
+            Do you offer hosting and maintenance? <img src="brand assests/the X.png" class="wd-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="wd-faq__a">
+            <p>Yes. We offer hosting, security updates, backups, and ongoing maintenance plans so your site stays fast, secure, and up-to-date — without you having to worry about it.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="wd-section wd-cta" id="contact">
+    <div class="wd-cta__bg"></div>
+    <div class="container wd-cta__inner">
+      <div class="wd-cta__content">
+        <span class="label-tag label-tag--light">Ready to Get Started?</span>
+        <h2>Ready to Take the Leap?</h2>
+        <p>Get a free website audit today. We'll show you exactly what your current site is costing you and what a new one could do for your business — no fluff, no pressure.</p>
+        <div class="wd-cta__bullets">
+          <div class="cta-bullet"><span class="cta-bullet__dot"></span>Free no-obligation audit</div>
+          <div class="cta-bullet"><span class="cta-bullet__dot"></span>Custom quote within 24 hours</div>
+          <div class="cta-bullet"><span class="cta-bullet__dot"></span>No long-term contracts</div>
+          <div class="cta-bullet"><span class="cta-bullet__dot"></span>100% Texas-based team</div>
+        </div>
+      </div>
+      <form class="cta__form" id="contactForm">
+        <h3 class="form-title">Get Your Free Website Audit</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" placeholder="John" required />
+          </div>
+          <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" placeholder="Smith" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="john@company.com" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" placeholder="(555) 000-0000" />
+        </div>
+        <div class="form-group">
+          <label for="website">Current Website (if any)</label>
+          <input type="text" id="website" placeholder="mycompany.com" />
+        </div>
+        <button type="submit" class="btn btn--primary btn--full btn--lg">Get My Free Audit →</button>
+        <p class="form-note">No contracts. No BS. Just results.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="brand assests/logovlex.png" alt="Vlex Marketing" class="footer__logo" />
+        <p>Aggressive marketing for ambitious brands.<br />Texas-based. Results-driven. Always.</p>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/vlexmarketing?igsh=MXIxeHcyamhldG1yMA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/share/1BEuyUZEoK/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@vlexmarketing?_r=1&_t=ZT-967NR0LHGeL" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Paid Ads Management</a></li>
+            <li><a href="seo.html">SEO &amp; Content</a></li>
+            <li><a href="website-design.html">Website Design</a></li>
+            <li><a href="google-maps.html">Google Maps SEO</a></li>
+            <li><a href="local-service-ads.html">Google Local Service Ads</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#results">Results</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:Texasexclusiveproperties@gmail.com">Email Us</a></li>
+            <li><a href="#contact">Free Audit</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© 2026 Vlex Marketing. All rights reserved.</p>
+        <p>Made with aggression in Texas</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener('click', function(e) {
+      var d = document.querySelector('.nav__item--dropdown');
+      if (d && !d.contains(e.target)) d.classList.remove('open');
+    });
+    // FAQ accordion
+    document.querySelectorAll('.wd-faq__item').forEach(function(item) {
+      item.querySelector('.wd-faq__q').addEventListener('click', function() {
+        var isOpen = item.classList.contains('open');
+        document.querySelectorAll('.wd-faq__item').forEach(function(i) { i.classList.remove('open'); });
+        if (!isOpen) item.classList.add('open');
+      });
+    });
+  </script>
+</body>
+</html>

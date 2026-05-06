@@ -1,0 +1,20 @@
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+node_modules/
+.env
+
+# Reference screenshots (not used on website)
+brand assests/seo.png
+brand assests/paid ads .png
+brand assests/google seo.png
+brand assests/google local ads .png
+brand assests/website design page .png
+brand assests/hookagency.com_ppc_.png
+brand assests/www.associationofprofessionalbuilders.com_.png
+brand assests/hero of paid ads .png
+brand assests/hero with 4 lines .png
+brand assests/why should i .png
+brand assests/side with shingle design .png
+brand assests/questions .png

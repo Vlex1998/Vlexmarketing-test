@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEO &amp; Content Marketing — Vlex Marketing</title>
+  <meta name="description" content="Vlex Marketing delivers SEO and content marketing strategies that rank your business on Google, drive qualified organic traffic, and compound growth over time. Texas-based. Results-driven." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="seo.css" />
+  <style>
+    h1, h2, h3 { text-transform: uppercase !important; }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="brand assests/logovlex.png" alt="Vlex Marketing" />
+      </a>
+      <ul class="nav__links">
+        <li class="nav__item--dropdown">
+          <button class="nav__dropdown-toggle" type="button" onclick="var p=this.closest('.nav__item--dropdown');p.classList.toggle('open');event.stopPropagation();">Services <span class="nav__chevron">▾</span></button>
+          <div class="nav__mega">
+            <div class="mega__main">
+              <a href="paid-ads.html" class="mega__card">
+                <div class="mega__img"><img src="brand assests/DSC00026-3.jpg" alt="Paid Ads Management" /></div>
+                <h4>Paid Ads Management</h4>
+                <p>Google Ads, Meta &amp; TikTok campaigns built to generate qualified leads at scale.</p>
+              </a>
+              <a href="seo.html" class="mega__card">
+                <div class="mega__img"><img src="brand assests/DSC00129.jpg" alt="SEO & Content" /></div>
+                <h4>SEO &amp; Content Marketing</h4>
+                <p>Dominate organic search through technical SEO, authority content, and link building.</p>
+              </a>
+              <a href="website-design.html" class="mega__card">
+                <div class="mega__img"><img src="brand assests/DSC00015.jpg" alt="Website Design" /></div>
+                <h4>Website Design</h4>
+                <p>High-converting websites and landing pages built for speed and measurable ROI.</p>
+              </a>
+            </div>
+            <div class="mega__side">
+              <a href="google-maps.html" class="mega__side-item">
+                <div class="mega__side-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                <div><h4>Google Maps SEO</h4><p>Get to the top of Google Maps so local customers find you first.</p></div>
+              </a>
+              <a href="local-service-ads.html" class="mega__side-item">
+                <div class="mega__side-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg></div>
+                <div><h4>Google Local Service Ads</h4><p>Pay-per-lead ads — only pay when customers actually call you.</p></div>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#results">Results</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn--primary nav__cta">Get in Touch</a>
+      <button class="nav__burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="nav__mobile" id="mobileMenu">
+    <ul>
+      <li><a href="paid-ads.html">Paid Ads Management</a></li>
+      <li><a href="seo.html">SEO &amp; Content Marketing</a></li>
+      <li><a href="website-design.html">Website Design</a></li>
+      <li><a href="google-maps.html">Google Maps SEO</a></li>
+      <li><a href="local-service-ads.html">Google Local Service Ads</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#results">Results</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="se-hero">
+    <div class="se-hero__bg">
+      <img src="brand assests/DSC00015.jpg" alt="SEO and content marketing results" />
+    </div>
+    <div class="se-hero__overlay"></div>
+    <div class="container se-hero__inner">
+      <p class="se-hero__breadcrumb">SEO &amp; Content Marketing</p>
+      <div class="se-hero__quote">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+        <span>"We went from page 4 to the top 3 results in under 6 months." — Vlex Client</span>
+      </div>
+      <h1 class="se-hero__headline">BE MORE SELECTIVE &amp; PROFITABLE<br>BY GETTING MORE LEADS FROM GOOGLE</h1>
+      <ul class="se-hero__bullets">
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          Rank higher on Google and dominate your local market
+        </li>
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 19 9 5 6 12 2 12"/></svg>
+          Drive qualified organic traffic that converts into real leads
+        </li>
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          Long-term growth that compounds — not a one-time spike
+        </li>
+      </ul>
+      <div class="se-hero__actions">
+        <a href="#contact" class="btn btn--primary btn--lg">Get in Touch</a>
+      </div>
+    </div>
+    <div class="se-hero__stats">
+      <div class="container se-hero__stats-inner">
+        <div class="se-stat">
+          <strong>94%</strong>
+          <span>of clicks go to page 1 results</span>
+        </div>
+        <div class="se-stat-div"></div>
+        <div class="se-stat">
+          <strong>3x</strong>
+          <span>more leads from organic vs paid alone</span>
+        </div>
+        <div class="se-stat-div"></div>
+        <div class="se-stat">
+          <strong>70%</strong>
+          <span>of searchers ignore paid ads</span>
+        </div>
+        <div class="se-stat-div"></div>
+        <div class="se-stat">
+          <strong>6-12mo</strong>
+          <span>average timeline to rank on page 1</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEO EXPERTISE -->
+  <section class="se-section se-expertise">
+    <div class="container se-two-col">
+      <div class="se-two-col__text">
+        <span class="label-tag">SEO Expertise That Drives Results</span>
+        <h2>Stop Being Invisible.<br>Start Dominating Google.</h2>
+        <p>Most businesses either ignore SEO entirely or get burned by cheap agencies that promise results and deliver nothing. Meanwhile, your competitors are quietly climbing the rankings and taking customers that should be yours.</p>
+        <p>At Vlex Marketing, we build SEO strategies that compound over time. Every campaign starts with a deep technical audit, targets the keywords your buyers actually search, and builds the authority signals Google uses to rank you above everyone else in your market.</p>
+        <ul class="se-checklist">
+          <li>Technical SEO audit &amp; fixes</li>
+          <li>Keyword research targeting buyer-intent searches</li>
+          <li>On-page optimization for every page</li>
+          <li>Local SEO &amp; Google Maps domination</li>
+          <li>Monthly content strategy &amp; link building</li>
+        </ul>
+      </div>
+      <div class="se-two-col__visual">
+        <div class="se-services">
+          <div class="se-service-card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            <h4>Technical SEO</h4>
+            <p>Site speed, crawlability, schema markup, and indexation fixes that form the foundation of strong rankings.</p>
+          </div>
+          <div class="se-service-card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <h4>Local SEO</h4>
+            <p>Google Business Profile optimization, local citations, and Maps pack strategies to dominate your area.</p>
+          </div>
+          <div class="se-service-card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            <h4>Content Marketing</h4>
+            <p>High-value, buyer-intent content that attracts organic traffic and positions you as the authority in your market.</p>
+          </div>
+          <div class="se-service-card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            <h4>Link Building</h4>
+            <p>White-hat link acquisition from authoritative, relevant domains that boost your domain authority and rankings.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOU GET -->
+  <section class="se-section se-features">
+    <div class="container">
+      <div class="se-features__header">
+        <span class="label-tag label-tag--light">What You Get</span>
+        <h2>Effective SEO Management for <span class="text--red">Growth-Minded Businesses</span></h2>
+        <p>We don't just chase rankings — we build organic lead generation systems that keep working month after month. Here's what makes a Vlex SEO campaign different.</p>
+      </div>
+
+      <div class="se-bullets-row">
+        <div class="se-bullet-item">
+          <div class="se-bullet-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div>
+            <h4>No Shortcuts Ever</h4>
+            <p>We only use white-hat, Google-compliant strategies. No keyword stuffing, no black-hat links, no tactics that blow up in 6 months and tank your site.</p>
+          </div>
+        </div>
+        <div class="se-bullet-item">
+          <div class="se-bullet-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <h4>Local SEO Domination</h4>
+            <p>We specialize in local search. We'll put you at the top of Google Maps and the organic results for every high-intent keyword in your city and surrounding area.</p>
+          </div>
+        </div>
+        <div class="se-bullet-item">
+          <div class="se-bullet-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          </div>
+          <div>
+            <h4>Content That Converts</h4>
+            <p>Every piece of content we create is built to rank and built to convert. We target buyer-intent keywords so the traffic we drive actually turns into leads and phone calls.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Shingle box -->
+      <div class="se-shingle-box">
+        <div class="se-shingle-inner">
+          <div class="se-pillar">
+            <div class="se-pillar__icon">
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3>Technical Foundation</h3>
+            <p>Site architecture, page speed, Core Web Vitals, schema markup, and crawlability — we ensure Google can find, understand, and rank every page on your site.</p>
+          </div>
+          <div class="se-pillar-div"></div>
+          <div class="se-pillar">
+            <div class="se-pillar__icon">
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+            </div>
+            <h3>Content Strategy</h3>
+            <p>Keyword-mapped content calendars, buyer-intent blog posts, service pages, and location pages — every word is written to rank and convert at the same time.</p>
+          </div>
+          <div class="se-pillar-div"></div>
+          <div class="se-pillar">
+            <div class="se-pillar__icon">
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            </div>
+            <h3>Authority Building</h3>
+            <p>Strategic outreach and white-hat link acquisition from relevant, high-authority domains that signal to Google your site deserves to rank above the competition.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DON'T LET BAD PROVIDERS WIN -->
+  <section class="se-section se-warning">
+    <div class="container">
+      <div class="se-warning__header">
+        <span class="label-tag">The Reality</span>
+        <h2>Don't Let Inferior Providers Show Up Above You on Google</h2>
+      </div>
+      <div class="se-warning__grid">
+        <div class="se-warning-items">
+          <div class="se-warning-item">
+            <div class="se-warning-item__icon">✕</div>
+            <div>
+              <h4>Keyword Stuffing</h4>
+              <p>Cheap SEO agencies cram keywords unnaturally into every sentence. Google recognizes this immediately, penalizes your site, and you end up worse off than when you started.</p>
+            </div>
+          </div>
+          <div class="se-warning-item">
+            <div class="se-warning-item__icon">✕</div>
+            <div>
+              <h4>Buying Cheap Links</h4>
+              <p>Link farms and private blog networks look like a shortcut but they're a ticking time bomb. One Google update and your rankings collapse overnight — often taking months to recover.</p>
+            </div>
+          </div>
+          <div class="se-warning-item">
+            <div class="se-warning-item__icon">✕</div>
+            <div>
+              <h4>Ignoring Technical SEO</h4>
+              <p>No amount of content helps if your site is slow, has broken crawl paths, duplicate content, or poor mobile experience. These are the foundations most bad agencies skip entirely.</p>
+            </div>
+          </div>
+          <div class="se-warning-item">
+            <div class="se-warning-item__icon">✕</div>
+            <div>
+              <h4>No Reporting or Transparency</h4>
+              <p>You pay monthly and receive vague updates with no real data. You don't know what's actually being done, what's working, or why your rankings haven't moved in six months.</p>
+            </div>
+          </div>
+        </div>
+        <div class="se-good-card">
+          <h3>What Good SEO Looks Like</h3>
+          <ul class="se-good-list">
+            <li>Clear monthly reports showing keyword ranking movements, traffic growth, and leads generated</li>
+            <li>White-hat link acquisition from real, relevant websites in your industry and geography</li>
+            <li>Full technical audit completed before any content or links are touched</li>
+            <li>Buyer-intent keyword strategy — targeting searches that actually convert, not just high-volume vanity terms</li>
+            <li>Dedicated SEO strategist who knows your market, your competitors, and your goals — not an automated dashboard</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARISON TABLE -->
+  <section class="se-section se-why">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">Why Vlex</span>
+        <h2>Why Choose an Agency <span class="text--red">Specialized in SEO?</span></h2>
+        <p>Not all SEO providers are built the same. See exactly what you're getting — and what you're avoiding — when you work with Vlex.</p>
+      </div>
+
+      <div class="se-compare">
+        <div class="se-compare__head">
+          <div class="se-compare__head-blank"></div>
+          <div class="se-compare__head-col se-compare__head-col--vlex">
+            <img src="brand assests/logovlex.png" alt="Vlex Marketing" class="se-compare__logo" />
+          </div>
+          <div class="se-compare__head-col">
+            <span class="se-compare__col-label">Cheap SEO Companies</span>
+          </div>
+          <div class="se-compare__head-col">
+            <span class="se-compare__col-label">Freelancers</span>
+          </div>
+        </div>
+
+        <div class="se-compare__row">
+          <div class="se-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            Point of Contact
+          </div>
+          <div class="se-compare__cell se-compare__cell--vlex">Dedicated SEO strategist who knows your market &amp; goals</div>
+          <div class="se-compare__cell">Rotated account managers, no industry knowledge</div>
+          <div class="se-compare__cell">Hard to reach, stretched across too many clients</div>
+        </div>
+
+        <div class="se-compare__row">
+          <div class="se-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            Strategy
+          </div>
+          <div class="se-compare__cell se-compare__cell--vlex">Custom strategy built around your market, competitors &amp; buyers</div>
+          <div class="se-compare__cell">Cookie-cutter packages with no market research</div>
+          <div class="se-compare__cell">Limited scope — usually just on-page or just links</div>
+        </div>
+
+        <div class="se-compare__row">
+          <div class="se-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            Reporting
+          </div>
+          <div class="se-compare__cell se-compare__cell--vlex">Transparent monthly reports — rankings, traffic, leads &amp; ROI</div>
+          <div class="se-compare__cell">Vanity metrics — DA scores and impressions, not leads</div>
+          <div class="se-compare__cell">Minimal reporting, no consistent format or cadence</div>
+        </div>
+
+        <div class="se-compare__row">
+          <div class="se-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            Link Building
+          </div>
+          <div class="se-compare__cell se-compare__cell--vlex">White-hat outreach to real, relevant &amp; authoritative domains</div>
+          <div class="se-compare__cell">Bulk link farms &amp; PBNs — high risk of Google penalties</div>
+          <div class="se-compare__cell">Often skipped entirely or outsourced to lowest-cost providers</div>
+        </div>
+
+        <div class="se-compare__row">
+          <div class="se-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            Technical SEO
+          </div>
+          <div class="se-compare__cell se-compare__cell--vlex">Full audit &amp; ongoing fixes — speed, crawl, schema &amp; Core Web Vitals</div>
+          <div class="se-compare__cell">Surface-level checks — meta titles and nothing else</div>
+          <div class="se-compare__cell">Depends on skill set — often untouched after initial setup</div>
+        </div>
+
+        <div class="se-compare__row se-compare__row--last">
+          <div class="se-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Local Knowledge
+          </div>
+          <div class="se-compare__cell se-compare__cell--vlex">100% focused on local &amp; home service businesses in Texas</div>
+          <div class="se-compare__cell">Works with any business in any location — no local expertise</div>
+          <div class="se-compare__cell">Generic approach, limited understanding of local search dynamics</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="se-banner">
+    <div class="se-banner__bg">
+      <img src="brand assests/DSC00129.jpg" alt="" />
+    </div>
+    <div class="se-banner__overlay"></div>
+    <div class="container se-banner__inner">
+      <div>
+        <h2>Your Competitors Are Ranking. The Question Is Will You Outrank Them?</h2>
+        <p>Every day you're not on page 1 is a day your competitors are taking leads that should be yours. Stop being invisible — let's build an SEO strategy that dominates your market.</p>
+      </div>
+      <a href="#contact" class="btn btn--primary btn--lg">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="se-section se-faq">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">Common Questions</span>
+        <h2>SEO &amp; Content Marketing <span class="text--red">FAQ</span></h2>
+      </div>
+      <div class="se-faq__list">
+
+        <div class="se-faq__item">
+          <button class="se-faq__q">
+            How long does SEO take to work?
+            <img src="brand assests/the X.png" class="se-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="se-faq__a">
+            <p>SEO is a long-term investment, not a quick fix. Most businesses start seeing meaningful ranking improvements within 3–6 months, with significant organic traffic and lead growth happening in the 6–12 month range. Factors like your domain age, current technical health, competition level, and how aggressively we build authority all influence the timeline. We'll give you a realistic projection during your free SEO audit based on your specific situation.</p>
+          </div>
+        </div>
+
+        <div class="se-faq__item">
+          <button class="se-faq__q">
+            Do you guarantee first page rankings?
+            <img src="brand assests/the X.png" class="se-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="se-faq__a">
+            <p>No reputable SEO agency can guarantee specific rankings — and any that do are lying to you. Google controls its algorithm and can update it at any time. What we can guarantee is that we'll use proven, white-hat strategies, work relentlessly on your behalf, and give you complete transparency on everything we're doing and every result we're achieving. Our track record speaks for itself, and we're confident in what our process delivers.</p>
+          </div>
+        </div>
+
+        <div class="se-faq__item">
+          <button class="se-faq__q">
+            What's included in your SEO service?
+            <img src="brand assests/the X.png" class="se-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="se-faq__a">
+            <p>Our SEO service includes a full technical audit and fixes, in-depth keyword research targeting buyer-intent searches, on-page optimization for all key pages, local SEO and Google Business Profile management, a monthly content strategy with new pages and blog posts, white-hat link building outreach, and a transparent monthly report covering rankings, traffic, and lead metrics. Everything is handled by your dedicated strategist — nothing is outsourced to low-quality providers.</p>
+          </div>
+        </div>
+
+        <div class="se-faq__item">
+          <button class="se-faq__q">
+            Do I need SEO if I'm already running paid ads?
+            <img src="brand assests/the X.png" class="se-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="se-faq__a">
+            <p>Absolutely — and the two work together powerfully. Paid ads give you immediate visibility, but the moment you stop spending, you disappear. SEO builds a permanent, compounding presence that generates leads around the clock without ongoing ad spend. Businesses that run both typically see 3–5x more total lead volume than those relying on either channel alone. SEO also lowers your cost-per-lead over time as organic traffic grows and your dependence on paid clicks decreases.</p>
+          </div>
+        </div>
+
+        <div class="se-faq__item">
+          <button class="se-faq__q">
+            How do you measure SEO success?
+            <img src="brand assests/the X.png" class="se-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="se-faq__a">
+            <p>We measure success by what actually matters to your business — not just vanity metrics. That means keyword ranking improvements for your target search terms, organic traffic growth, lead volume from organic channels (calls, form fills, direction requests), and local visibility in the Google Maps pack. You'll receive a clear monthly report that breaks all of this down in plain language, with trend data so you can see the trajectory of growth over time.</p>
+          </div>
+        </div>
+
+        <div class="se-faq__item">
+          <button class="se-faq__q">
+            What makes your SEO different from other agencies?
+            <img src="brand assests/the X.png" class="se-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="se-faq__a">
+            <p>Three things. First, we're specialists in local and home service businesses in Texas — we understand your market, your competitors, and your buyers better than any generalist agency. Second, we only use white-hat, Google-compliant strategies — no shortcuts that put your site at risk. Third, you'll always have a dedicated strategist who knows your business, not a rotating account manager reading from a script. We retain clients through results, not lock-in clauses, because we're confident in what we deliver.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FORM -->
+  <section class="se-section se-cta" id="contact">
+    <div class="se-cta__bg"></div>
+    <div class="container se-cta__inner">
+      <div class="se-cta__content">
+        <span class="label-tag label-tag--light">Ready to Get Started?</span>
+        <h2>Ready to Stop Being <span class="text--red">Invisible?</span></h2>
+        <p>Get a free SEO audit today. We'll analyze your current rankings, identify the technical issues holding you back, and show you exactly what a properly executed SEO strategy could do for your business.</p>
+        <div class="se-cta__bullets">
+          <div class="se-cta-bullet"><span class="se-cta-bullet__dot"></span>Free no-obligation SEO audit</div>
+          <div class="se-cta-bullet"><span class="se-cta-bullet__dot"></span>Custom strategy delivered within 24 hours</div>
+          <div class="se-cta-bullet"><span class="se-cta-bullet__dot"></span>No long-term contracts required</div>
+          <div class="se-cta-bullet"><span class="se-cta-bullet__dot"></span>100% Texas-based team</div>
+        </div>
+      </div>
+      <form class="se-cta__form" id="seoForm">
+        <h3 class="form-title">Get Your Free SEO Audit</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="se_fname">First Name</label>
+            <input type="text" id="se_fname" name="fname" placeholder="John" required />
+          </div>
+          <div class="form-group">
+            <label for="se_lname">Last Name</label>
+            <input type="text" id="se_lname" name="lname" placeholder="Smith" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="se_email">Email Address</label>
+          <input type="email" id="se_email" name="email" placeholder="john@company.com" required />
+        </div>
+        <div class="form-group">
+          <label for="se_phone">Phone Number</label>
+          <input type="tel" id="se_phone" name="phone" placeholder="(555) 000-0000" />
+        </div>
+        <div class="form-group">
+          <label for="se_business">Business Website</label>
+          <input type="text" id="se_business" name="business" placeholder="mycompany.com" />
+        </div>
+        <div class="form-group">
+          <label for="se_budget">Monthly Budget</label>
+          <select id="se_budget" name="budget">
+            <option value="">Select your budget range</option>
+            <option>Under $500/mo</option>
+            <option>$500 – $1,500/mo</option>
+            <option>$1,500 – $3,000/mo</option>
+            <option>$3,000 – $6,000/mo</option>
+            <option>$6,000+/mo</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">Get in Touch</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo">
+          <img src="brand assests/logovlex.png" alt="Vlex Marketing" style="height:48px;width:auto;display:block;" />
+        </a>
+        <p>Texas-based digital marketing agency built for businesses ready to dominate online.</p>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/vlexmarketing" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@vlexmarketing" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/share/1BEuyUZEoK/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <div>
+          <h5>Services</h5>
+          <ul>
+            <li><a href="paid-ads.html">Paid Ads Management</a></li>
+            <li><a href="seo.html">SEO &amp; Content Marketing</a></li>
+            <li><a href="website-design.html">Website Design</a></li>
+            <li><a href="google-maps.html">Google Maps SEO</a></li>
+            <li><a href="local-service-ads.html">Google Local Service Ads</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Company</h5>
+          <ul>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#results">Results</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2025 Vlex Marketing. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Dropdown outside-click handler
+    document.addEventListener('click', function(e) {
+      var d = document.querySelector('.nav__item--dropdown');
+      if (d && !d.contains(e.target)) d.classList.remove('open');
+    });
+
+    // SEO FAQ accordion
+    document.querySelectorAll('.se-faq__item').forEach(function(item) {
+      item.querySelector('.se-faq__q').addEventListener('click', function() {
+        var isOpen = item.classList.contains('open');
+        document.querySelectorAll('.se-faq__item').forEach(function(i) { i.classList.remove('open'); });
+        if (!isOpen) item.classList.add('open');
+      });
+    });
+
+    // SEO form submit handler
+    const seoForm = document.getElementById('seoForm');
+    if (seoForm) {
+      seoForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const btn = seoForm.querySelector('button[type="submit"]');
+        btn.textContent = 'Sending…';
+        btn.disabled = true;
+        setTimeout(function() {
+          seoForm.innerHTML = `
+            <div class="form-success">
+              <div style="font-size:3rem;margin-bottom:16px;">&#128269;</div>
+              <h3>You're In!</h3>
+              <p>We'll review your site and reach out within 24 hours to schedule your free SEO audit. Get ready to climb the rankings.</p>
+            </div>
+          `;
+        }, 1200);
+      });
+    }
+  </script>
+</body>
+</html>

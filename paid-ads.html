@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paid Ads Management — Vlex Marketing</title>
+  <meta name="description" content="Vlex Marketing manages Google, Meta & TikTok ad campaigns built to generate qualified leads — not just clicks. Texas-based. Results-driven." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="paid-ads.css" />
+  <style>
+    h1, h2, h3 { text-transform: uppercase !important; }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="brand assests/logovlex.png" alt="Vlex Marketing" />
+      </a>
+      <ul class="nav__links">
+        <li class="nav__item--dropdown">
+          <button class="nav__dropdown-toggle" type="button" onclick="var p=this.closest('.nav__item--dropdown');p.classList.toggle('open');event.stopPropagation();">Services <span class="nav__chevron">▾</span></button>
+          <div class="nav__mega">
+            <div class="mega__main">
+              <a href="paid-ads.html" class="mega__card">
+                <div class="mega__img"><img src="brand assests/DSC00026-3.jpg" alt="Paid Ads Management" /></div>
+                <h4>Paid Ads Management</h4>
+                <p>Google Ads, Meta &amp; TikTok campaigns built to generate qualified leads at scale.</p>
+              </a>
+              <a href="seo.html" class="mega__card">
+                <div class="mega__img"><img src="brand assests/DSC00129.jpg" alt="SEO & Content" /></div>
+                <h4>SEO &amp; Content Marketing</h4>
+                <p>Dominate organic search through technical SEO, authority content, and link building.</p>
+              </a>
+              <a href="website-design.html" class="mega__card">
+                <div class="mega__img"><img src="brand assests/DSC00015.jpg" alt="Website Design" /></div>
+                <h4>Website Design</h4>
+                <p>High-converting websites and landing pages built for speed and measurable ROI.</p>
+              </a>
+            </div>
+            <div class="mega__side">
+              <a href="google-maps.html" class="mega__side-item">
+                <div class="mega__side-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                <div><h4>Google Maps SEO</h4><p>Get to the top of Google Maps so local customers find you first.</p></div>
+              </a>
+              <a href="local-service-ads.html" class="mega__side-item">
+                <div class="mega__side-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg></div>
+                <div><h4>Google Local Service Ads</h4><p>Pay-per-lead ads — only pay when customers actually call you.</p></div>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#results">Results</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <a href="index.html#contact" class="btn btn--primary nav__cta">Get in Touch</a>
+      <button class="nav__burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="nav__mobile" id="mobileMenu">
+    <ul>
+      <li><a href="paid-ads.html">Paid Ads Management</a></li>
+      <li><a href="seo.html">SEO &amp; Content Marketing</a></li>
+      <li><a href="website-design.html">Website Design</a></li>
+      <li><a href="google-maps.html">Google Maps SEO</a></li>
+      <li><a href="local-service-ads.html">Google Local Service Ads</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#results">Results</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="pa-hero">
+    <div class="pa-hero__bg">
+      <img src="brand assests/DSC00082.jpg" alt="Paid ads results" />
+    </div>
+    <div class="pa-hero__overlay"></div>
+    <div class="container pa-hero__inner">
+      <p class="pa-hero__breadcrumb">Paid Ads Management</p>
+      <div class="pa-hero__quote">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+        <span>"Our leads doubled in the first 60 days — and the quality went way up." — Vlex Client</span>
+      </div>
+      <h1 class="pa-hero__headline">CONSISTENTLY MAXIMIZING YOUR<br>AD SPEND FOR QUALITY LEADS</h1>
+      <ul class="pa-hero__bullets">
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 19 9 5 6 12 2 12"/></svg>
+          Campaigns built to generate qualified leads — not just clicks
+        </li>
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Every dollar tracked, optimized, and accountable to real ROI
+        </li>
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          Google, Meta &amp; TikTok ads managed by a dedicated team
+        </li>
+      </ul>
+      <div class="pa-hero__actions">
+        <a href="#contact" class="btn btn--primary btn--lg">Get in Touch</a>
+      </div>
+    </div>
+    <div class="pa-hero__stats">
+      <div class="container pa-hero__stats-inner">
+        <div class="pa-stat">
+          <strong>3.5x</strong>
+          <span>average return on ad spend for our clients</span>
+        </div>
+        <div class="pa-stat-div"></div>
+        <div class="pa-stat">
+          <strong>40%</strong>
+          <span>lower cost-per-lead vs. industry average</span>
+        </div>
+        <div class="pa-stat-div"></div>
+        <div class="pa-stat">
+          <strong>$2M+</strong>
+          <span>in ad spend managed across platforms</span>
+        </div>
+        <div class="pa-stat-div"></div>
+        <div class="pa-stat">
+          <strong>50+</strong>
+          <span>active campaigns running right now</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PPC EXPERTISE -->
+  <section class="pa-section pa-expertise">
+    <div class="container pa-two-col">
+      <div class="pa-two-col__text">
+        <span class="label-tag">PPC Expertise That Drives Results</span>
+        <h2>Stop Wasting Ad Budget<br>Start Generating Real Leads</h2>
+        <p>Most businesses running paid ads are burning money without knowing it — wrong targeting, weak landing pages, no conversion tracking, and zero optimization after launch.</p>
+        <p>At Vlex Marketing, we manage your ad campaigns like they're our own money. Every campaign is built with a clear strategy, tracked obsessively, and optimized continuously to bring you the highest quality leads at the lowest possible cost.</p>
+        <ul class="pa-checklist">
+          <li>Full campaign setup — search, display, social &amp; retargeting</li>
+          <li>Conversion tracking wired in from day one</li>
+          <li>A/B tested ad copy and creatives that actually convert</li>
+          <li>Monthly reporting with real numbers, no fluff</li>
+          <li>Dedicated account manager — not an algorithm</li>
+        </ul>
+      </div>
+      <div class="pa-two-col__visual">
+        <div class="pa-platforms">
+          <div class="pa-platform-card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <h4>Google Ads</h4>
+            <p>Search, Display &amp; Performance Max campaigns targeting buyers ready to convert.</p>
+          </div>
+          <div class="pa-platform-card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            <h4>Meta Ads</h4>
+            <p>Facebook &amp; Instagram campaigns that reach your ideal customers where they scroll.</p>
+          </div>
+          <div class="pa-platform-card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+            <h4>TikTok Ads</h4>
+            <p>Short-form video campaigns that build brand awareness and drive inbound calls.</p>
+          </div>
+          <div class="pa-platform-card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <h4>Local Service Ads</h4>
+            <p>Pay-per-lead Google ads — you only get charged when a real customer calls you.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOU GET -->
+  <section class="pa-section pa-features">
+    <div class="container">
+      <div class="pa-features__header">
+        <span class="label-tag label-tag--light">What You Get</span>
+        <h2>Effective Paid Ads Management for <span class="text--red">Growth-Minded Businesses</span></h2>
+        <p>We don't just run ads — we build revenue-generating systems. Here's what separates a Vlex campaign from everyone else.</p>
+      </div>
+
+      <div class="pa-bullets-row">
+        <div class="pa-bullet-item">
+          <div class="pa-bullet-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <h4>No Wasted Budget</h4>
+            <p>We build tightly targeted campaigns so your money reaches people who are actually ready to buy — not just browsers.</p>
+          </div>
+        </div>
+        <div class="pa-bullet-item">
+          <div class="pa-bullet-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <div>
+            <h4>Full Funnel Strategy</h4>
+            <p>From the first click to a closed sale, we build ads that match every stage of your customer's decision-making journey.</p>
+          </div>
+        </div>
+        <div class="pa-bullet-item">
+          <div class="pa-bullet-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <div>
+            <h4>Transparent Reporting</h4>
+            <p>You'll always know exactly what's happening with your money — clear dashboards, monthly reports, no hidden metrics.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Shingle box -->
+      <div class="pa-shingle-box">
+        <div class="pa-shingle-inner">
+          <div class="pa-pillar">
+            <div class="pa-pillar__icon">
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3>Google Ads Strategy</h3>
+            <p>Search, display, shopping, and Performance Max campaigns crafted for your specific market and budget — built to convert from day one.</p>
+          </div>
+          <div class="pa-pillar-div"></div>
+          <div class="pa-pillar">
+            <div class="pa-pillar__icon">
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+            </div>
+            <h3>Continuous Optimization</h3>
+            <p>We don't set it and forget it. Every campaign is monitored weekly and optimized — bids, keywords, audiences, and creative.</p>
+          </div>
+          <div class="pa-pillar-div"></div>
+          <div class="pa-pillar">
+            <div class="pa-pillar__icon">
+              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Lead Quality Focus</h3>
+            <p>Clicks are worthless without conversions. We optimize for real leads — phone calls, form fills, and booked appointments.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARISON TABLE -->
+  <section class="pa-section pa-why">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">Why Vlex</span>
+        <h2>Why Choose an Agency <span class="text--red">Specialized in Paid Ads?</span></h2>
+        <p>Not all agencies are built the same. See exactly what you're getting — and what you're avoiding — when you work with Vlex.</p>
+      </div>
+
+      <div class="pa-compare">
+        <div class="pa-compare__head">
+          <div class="pa-compare__head-blank"></div>
+          <div class="pa-compare__head-col pa-compare__head-col--vlex">
+            <img src="brand assests/logovlex.png" alt="Vlex Marketing" class="pa-compare__logo" />
+          </div>
+          <div class="pa-compare__head-col">
+            <span class="pa-compare__col-label">Scammy Agencies</span>
+          </div>
+          <div class="pa-compare__head-col">
+            <span class="pa-compare__col-label">Freelancers</span>
+          </div>
+        </div>
+
+        <div class="pa-compare__row">
+          <div class="pa-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            Point of Contact
+          </div>
+          <div class="pa-compare__cell pa-compare__cell--vlex">Dedicated Account &amp; Campaign Manager</div>
+          <div class="pa-compare__cell">Automated reports, no real human contact</div>
+          <div class="pa-compare__cell">Hard to reach, juggling multiple clients</div>
+        </div>
+
+        <div class="pa-compare__row">
+          <div class="pa-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            Optimization
+          </div>
+          <div class="pa-compare__cell pa-compare__cell--vlex">Weekly monitoring &amp; active bid/keyword optimization</div>
+          <div class="pa-compare__cell">Set-it-and-forget-it — rarely touched after setup</div>
+          <div class="pa-compare__cell">Inconsistent — depends heavily on availability</div>
+        </div>
+
+        <div class="pa-compare__row">
+          <div class="pa-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            Reporting
+          </div>
+          <div class="pa-compare__cell pa-compare__cell--vlex">Transparent monthly reports with real ROI data</div>
+          <div class="pa-compare__cell">Vanity metrics — impressions &amp; clicks, not leads</div>
+          <div class="pa-compare__cell">Minimal reporting, no standardized format</div>
+        </div>
+
+        <div class="pa-compare__row">
+          <div class="pa-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+            Strategy
+          </div>
+          <div class="pa-compare__cell pa-compare__cell--vlex">Full-funnel strategy built around your market &amp; goals</div>
+          <div class="pa-compare__cell">Cookie-cutter campaigns copied from a template</div>
+          <div class="pa-compare__cell">Limited to one or two platforms, no full-funnel view</div>
+        </div>
+
+        <div class="pa-compare__row">
+          <div class="pa-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            Conversion Tracking
+          </div>
+          <div class="pa-compare__cell pa-compare__cell--vlex">Full setup — calls, forms &amp; appointments tracked</div>
+          <div class="pa-compare__cell">Often skipped or broken — no real data</div>
+          <div class="pa-compare__cell">Basic setup, misses offline conversions</div>
+        </div>
+
+        <div class="pa-compare__row pa-compare__row--last">
+          <div class="pa-compare__cat">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Industry Focus
+          </div>
+          <div class="pa-compare__cell pa-compare__cell--vlex">100% focused on local &amp; home service businesses in Texas</div>
+          <div class="pa-compare__cell">Takes on any industry — no specialized knowledge</div>
+          <div class="pa-compare__cell">Broad skill set, limited local market expertise</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DO PAID ADS WORK? -->
+  <section class="pa-section pa-works">
+    <div class="container pa-works__inner">
+      <div class="pa-works__text">
+        <span class="label-tag label-tag--light">The Truth About Paid Ads</span>
+        <h2>Do Paid Ads <span class="text--red">Actually Work?</span></h2>
+        <p>Short answer: yes — when they're done right. Paid ads are one of the fastest ways to get in front of customers who are actively searching for exactly what you offer. Unlike SEO, which takes months to build, a well-run ad campaign can start generating leads within days.</p>
+        <p>The reason most businesses think "ads don't work" is because they've only experienced bad ad management — poor targeting, weak copy, no tracking, and zero optimization after launch. That's not paid ads failing. That's a bad agency failing.</p>
+        <p>With Vlex, your campaigns are built on strategy, optimized continuously, and measured by what actually matters — qualified leads, inbound calls, and booked jobs.</p>
+      </div>
+      <div class="pa-works__stats">
+        <div class="pa-works__stat">
+          <strong>65%</strong>
+          <span>of customers click on paid ads when ready to buy</span>
+        </div>
+        <div class="pa-works__stat">
+          <strong>2x</strong>
+          <span>more brand awareness from search ads alone</span>
+        </div>
+        <div class="pa-works__stat">
+          <strong>$8</strong>
+          <span>returned for every $1 spent on Google Ads (average)</span>
+        </div>
+        <div class="pa-works__stat">
+          <strong>76%</strong>
+          <span>of local searches result in a call or visit within 24 hrs</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="pa-section pa-banner">
+    <div class="pa-banner__bg">
+      <img src="brand assests/DSC00026-3.jpg" alt="" />
+    </div>
+    <div class="pa-banner__overlay"></div>
+    <div class="container pa-banner__inner">
+      <div>
+        <h2>Real Customers Are Searching — The Question Is Will They Find You?</h2>
+        <p>Every day without the right ads running is money left on the table. Your competitors are already showing up — let's make sure you show up louder.</p>
+      </div>
+      <a href="#contact" class="btn btn--primary btn--lg">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="pa-section pa-faq">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">Common Questions</span>
+        <h2>Paid Ads <span class="text--red">FAQ</span></h2>
+      </div>
+      <div class="pa-faq__list">
+
+        <div class="pa-faq__item">
+          <button class="pa-faq__q">
+            How much should I spend on paid ads?
+            <img src="brand assests/the X.png" class="pa-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="pa-faq__a">
+            <p>It depends on your market, competition, and goals — but we recommend starting with a minimum of $1,000–$1,500/month in ad spend. We'll help you determine the right budget during your free strategy audit so you're not over- or under-investing.</p>
+          </div>
+        </div>
+
+        <div class="pa-faq__item">
+          <button class="pa-faq__q">
+            How quickly will I see results from paid ads?
+            <img src="brand assests/the X.png" class="pa-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="pa-faq__a">
+            <p>Paid ads can generate leads within the first few days of launching. However, campaigns typically hit their stride in the first 30–60 days as data accumulates and we optimize targeting, bids, and creative based on real performance.</p>
+          </div>
+        </div>
+
+        <div class="pa-faq__item">
+          <button class="pa-faq__q">
+            Do you manage the ad account or do I keep ownership?
+            <img src="brand assests/the X.png" class="pa-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="pa-faq__a">
+            <p>You always keep full ownership of your ad accounts. We manage them on your behalf — you'll always have access and can see exactly what's happening at any time. Your account, your data, your business.</p>
+          </div>
+        </div>
+
+        <div class="pa-faq__item">
+          <button class="pa-faq__q">
+            What platforms do you run ads on?
+            <img src="brand assests/the X.png" class="pa-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="pa-faq__a">
+            <p>We manage campaigns on Google Ads (Search, Display, Performance Max), Meta Ads (Facebook &amp; Instagram), TikTok Ads, and Google Local Service Ads. We'll recommend the right mix based on your target audience and goals.</p>
+          </div>
+        </div>
+
+        <div class="pa-faq__item">
+          <button class="pa-faq__q">
+            Is your management fee separate from ad spend?
+            <img src="brand assests/the X.png" class="pa-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="pa-faq__a">
+            <p>Yes — our management fee is separate from your ad budget. Your ad spend goes directly to the platforms (Google, Meta, TikTok). We charge a management fee for strategy, setup, optimization, and reporting. This keeps everything 100% transparent.</p>
+          </div>
+        </div>
+
+        <div class="pa-faq__item">
+          <button class="pa-faq__q">
+            Do you offer month-to-month or are there contracts?
+            <img src="brand assests/the X.png" class="pa-faq__icon" alt="" width="26" height="26" />
+          </button>
+          <div class="pa-faq__a">
+            <p>We ask for an initial commitment period so we have enough time to build and optimize your campaigns properly — paid ads need data to perform well. After that, we work on a flexible basis. We retain clients through results, not lock-in clauses.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FORM -->
+  <section class="pa-section pa-cta" id="contact">
+    <div class="pa-cta__bg"></div>
+    <div class="container pa-cta__inner">
+      <div class="pa-cta__content">
+        <span class="label-tag label-tag--light">Ready to Get Started?</span>
+        <h2>Ready to Stop Guessing and <span class="text--red">Start Growing?</span></h2>
+        <p>Get a free paid ads audit today. We'll review your current setup (or lack of one) and show you exactly what a properly run campaign could do for your business.</p>
+        <div class="pa-cta__bullets">
+          <div class="pa-cta-bullet"><span class="pa-cta-bullet__dot"></span>Free no-obligation audit</div>
+          <div class="pa-cta-bullet"><span class="pa-cta-bullet__dot"></span>Custom strategy within 24 hours</div>
+          <div class="pa-cta-bullet"><span class="pa-cta-bullet__dot"></span>No long-term contracts required</div>
+          <div class="pa-cta-bullet"><span class="pa-cta-bullet__dot"></span>100% Texas-based team</div>
+        </div>
+      </div>
+      <form class="pa-cta__form" id="paidAdsForm">
+        <h3 class="form-title">Get Your Free Paid Ads Audit</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="pa_fname">First Name</label>
+            <input type="text" id="pa_fname" name="fname" placeholder="John" required />
+          </div>
+          <div class="form-group">
+            <label for="pa_lname">Last Name</label>
+            <input type="text" id="pa_lname" name="lname" placeholder="Smith" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="pa_email">Email Address</label>
+          <input type="email" id="pa_email" name="email" placeholder="john@company.com" required />
+        </div>
+        <div class="form-group">
+          <label for="pa_phone">Phone Number</label>
+          <input type="tel" id="pa_phone" name="phone" placeholder="(555) 000-0000" />
+        </div>
+        <div class="form-group">
+          <label for="pa_business">Business Website</label>
+          <input type="text" id="pa_business" name="business" placeholder="mycompany.com" />
+        </div>
+        <div class="form-group">
+          <label for="pa_budget">Monthly Ad Budget</label>
+          <select id="pa_budget" name="budget">
+            <option value="">Select your budget range</option>
+            <option>Under $1,000/mo</option>
+            <option>$1,000 – $3,000/mo</option>
+            <option>$3,000 – $7,500/mo</option>
+            <option>$7,500 – $15,000/mo</option>
+            <option>$15,000+/mo</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">Get in Touch</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo">
+          <img src="brand assests/logovlex.png" alt="Vlex Marketing" style="height:48px;width:auto;display:block;" />
+        </a>
+        <p>Texas-based digital marketing agency built for businesses ready to dominate online.</p>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/vlexmarketing" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@vlexmarketing" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/share/1BEuyUZEoK/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <div>
+          <h5>Services</h5>
+          <ul>
+            <li><a href="paid-ads.html">Paid Ads Management</a></li>
+            <li><a href="seo.html">SEO &amp; Content Marketing</a></li>
+            <li><a href="website-design.html">Website Design</a></li>
+            <li><a href="google-maps.html">Google Maps SEO</a></li>
+            <li><a href="local-service-ads.html">Google Local Service Ads</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Company</h5>
+          <ul>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#results">Results</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2025 Vlex Marketing. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener('click', function(e) {
+      var d = document.querySelector('.nav__item--dropdown');
+      if (d && !d.contains(e.target)) d.classList.remove('open');
+    });
+    document.querySelectorAll('.pa-faq__item').forEach(function(item) {
+      item.querySelector('.pa-faq__q').addEventListener('click', function() {
+        var isOpen = item.classList.contains('open');
+        document.querySelectorAll('.pa-faq__item').forEach(function(i) { i.classList.remove('open'); });
+        if (!isOpen) item.classList.add('open');
+      });
+    });
+    const paidAdsForm = document.getElementById('paidAdsForm');
+    if (paidAdsForm) {
+      paidAdsForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const btn = paidAdsForm.querySelector('button[type="submit"]');
+        btn.textContent = 'Sending…';
+        btn.disabled = true;
+        setTimeout(() => {
+          paidAdsForm.innerHTML = `
+            <div class="form-success">
+              <div style="font-size:3rem;margin-bottom:16px;">🎯</div>
+              <h3>You're In!</h3>
+              <p>We'll review your info and reach out within 24 hours to schedule your free paid ads audit. Get ready to grow.</p>
+            </div>
+          `;
+        }, 1200);
+      });
+    }
+  </script>
+</body>
+</html>
