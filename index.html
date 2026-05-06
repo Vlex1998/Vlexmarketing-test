@@ -77,7 +77,18 @@
       </button>
     </div>
     <div class="nav__mobile" id="mobileMenu">
-      <a href="#services">Services</a>
+      <div class="nav__mobile-dropdown">
+        <button class="nav__mobile-services-toggle" type="button" onclick="var m=document.getElementById('mobileServicesMenu');var open=m.classList.toggle('open');this.querySelector('.nav__mobile-chevron').style.transform=open?'rotate(180deg)':'';event.stopPropagation();">
+          Services <span class="nav__mobile-chevron">▾</span>
+        </button>
+        <div class="nav__mobile-services-menu" id="mobileServicesMenu">
+          <a href="paid-ads.html">Paid Ads (PPC)</a>
+          <a href="seo.html">Search Engine Optimization</a>
+          <a href="google-maps.html">Google Maps SEO</a>
+          <a href="local-service-ads.html">Google Local Service Ads</a>
+          <a href="website-design.html">Website Design</a>
+        </div>
+      </div>
       <a href="#about">About</a>
       <a href="#results">Results</a>
       <a href="#contact">Contact</a>

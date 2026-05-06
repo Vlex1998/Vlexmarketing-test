@@ -383,6 +383,48 @@ h4 { font-size: 1rem; font-weight: 700; }
 .nav__mobile .btn { margin-top: 20px; text-align: center; }
 .nav__mobile.open { display: flex; }
 
+.nav__mobile-dropdown { width: 100%; }
+
+.nav__mobile-services-toggle {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  padding: 14px 0;
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgba(255,255,255,0.8);
+  cursor: pointer;
+  font-family: inherit;
+}
+.nav__mobile-services-toggle:hover { color: var(--white); }
+
+.nav__mobile-chevron {
+  float: right;
+  transition: transform 0.2s ease;
+}
+
+.nav__mobile-services-menu {
+  display: none;
+  flex-direction: column;
+  background: rgba(255,255,255,0.04);
+  border-radius: 6px;
+  margin: 4px 0 8px;
+  overflow: hidden;
+}
+.nav__mobile-services-menu.open { display: flex; }
+.nav__mobile-services-menu a {
+  padding: 12px 16px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  color: rgba(255,255,255,0.7);
+}
+.nav__mobile-services-menu a:last-child { border-bottom: none; }
+.nav__mobile-services-menu a:hover { color: var(--red); background: rgba(255,255,255,0.04); }
+
 /* ─── HERO ─────────────────────────────────────────────────── */
 .hero {
   position: relative;
@@ -687,11 +729,20 @@ h4 { font-size: 1rem; font-weight: 700; }
 }
 
 @media (max-width: 768px) {
-  .xmarks__stage { flex-direction: column; gap: 16px; }
-  .xmarks__start { flex-direction: row; }
-  .xmarks__map { width: 100%; }
-  .xmarks__svg { height: 120px; }
-  .xmarks__x { width: 70px; height: 70px; }
+  .xmarks__stage { display: block; position: relative; }
+  .xmarks__start { display: none; }
+  .xmarks__map { display: block; width: 100%; }
+  .xmarks__svg { height: 110px; width: 100%; }
+  .xmarks__destination {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    gap: 4px;
+  }
+  .xmarks__x { width: 64px; height: 64px; }
+  .xmarks__dest-label { font-size: 0.5rem; }
+  .xmarks__pulse, .xmarks__pulse--2 { width: 80px; height: 80px; }
 }
 
 /* ─── SERVICES ──────────────────────────────────────────────── */
