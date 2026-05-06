@@ -729,24 +729,38 @@ h4 { font-size: 1rem; font-weight: 700; }
 }
 
 @media (max-width: 768px) {
+  .xmarks { overflow: visible; }
   .xmarks__stage {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 0;
   }
-  .xmarks__start { display: none; }
+  .xmarks__start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    width: 42px;
+    gap: 3px;
+  }
+  .xmarks__start-dot { width: 10px; height: 10px; box-shadow: 0 0 0 3px rgba(206,15,15,0.2); }
+  .xmarks__start span {
+    font-size: 0.38rem;
+    white-space: normal;
+    text-align: center;
+    line-height: 1.3;
+    letter-spacing: 0.04em;
+  }
   .xmarks__map { flex: 1; min-width: 0; }
-  .xmarks { overflow: visible; }
   .xmarks__svg { height: 90px; width: 100%; overflow: visible; }
   .xmarks__destination {
-    position: static;
-    transform: none;
+    position: relative;
     flex-shrink: 0;
     width: 60px;
+    margin-left: -22px;
     gap: 0;
-    align-items: center;
-    justify-content: center;
+    z-index: 2;
   }
   .xmarks__dest-label { display: none; }
   .xmarks__x { width: 56px; height: 56px; }
