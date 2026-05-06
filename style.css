@@ -735,14 +735,15 @@ h4 { font-size: 1rem; font-weight: 700; }
   .xmarks__svg { height: 110px; width: 100%; }
   .xmarks__destination {
     position: absolute;
-    right: 0;
+    right: 8px;
     top: 50%;
     transform: translateY(-50%);
-    gap: 4px;
+    gap: 0;
   }
+  /* Hide label so div height = X only — centering lands exactly on trail tip */
+  .xmarks__dest-label { display: none; }
   .xmarks__x { width: 64px; height: 64px; }
-  .xmarks__dest-label { font-size: 0.5rem; }
-  .xmarks__pulse, .xmarks__pulse--2 { width: 80px; height: 80px; }
+  .xmarks__pulse, .xmarks__pulse--2 { width: 72px; height: 72px; }
 }
 
 /* ─── SERVICES ──────────────────────────────────────────────── */
