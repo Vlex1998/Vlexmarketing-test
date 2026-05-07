@@ -777,21 +777,30 @@
   .wd-cta__form { padding: 24px 16px; }
   .wd-data__grid { grid-template-columns: 1fr 1fr; }
 
-  /* Compare table: category full-width, 3 equal cells below */
-  .wd-compare__head { grid-template-columns: 1fr 1fr 1fr !important; }
-  .wd-compare__head-blank { display: none !important; }
-  .wd-compare__head-col { padding: 12px 6px; }
-  .wd-compare__head-col--vlex { margin-top: 0 !important; padding-top: 12px; border-radius: 8px 8px 0 0; }
-  .wd-compare__logo { height: 22px; }
-  .wd-compare__col-label { font-size: 0.6rem; letter-spacing: 0.02em; }
-  .wd-compare__row { grid-template-columns: 1fr 1fr 1fr !important; grid-template-rows: auto auto; }
+  /* Compare table: fully stacked cards on mobile */
+  .wd-compare__head { display: none !important; }
+  .wd-compare__row {
+    display: flex !important;
+    flex-direction: column !important;
+    border: 1px solid #e2e2e8;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
   .wd-compare__cat {
-    grid-column: 1 / -1 !important;
-    padding: 10px 12px !important;
+    background: #f4f4f6;
+    padding: 10px 14px !important;
     font-size: 0.72rem;
     border-bottom: 1px solid #e2e2e8;
-    background: #f8f8fa;
   }
-  .wd-compare__cell { padding: 10px 8px !important; font-size: 0.72rem; line-height: 1.45; }
-  .wd-compare__row--last .wd-compare__cell--vlex { border-radius: 0 0 8px 8px; }
+  .wd-compare__cell {
+    padding: 10px 14px !important;
+    font-size: 0.8rem;
+    border-left: none !important;
+    border-top: 1px solid #e2e2e8;
+  }
+  .wd-compare__cell--vlex::before { content: "VLEX MARKETING"; display: block; font-size: 0.55rem; font-weight: 800; color: rgba(255,255,255,0.5); letter-spacing: 0.08em; margin-bottom: 4px; }
+  .wd-compare__cell:nth-child(3)::before { content: "SCAMMY COMPANIES"; display: block; font-size: 0.55rem; font-weight: 800; color: #bbb; letter-spacing: 0.08em; margin-bottom: 4px; }
+  .wd-compare__cell:nth-child(4)::before { content: "FREELANCERS"; display: block; font-size: 0.55rem; font-weight: 800; color: #bbb; letter-spacing: 0.08em; margin-bottom: 4px; }
+  .wd-compare__row--last .wd-compare__cell--vlex { border-radius: 0; }
 }

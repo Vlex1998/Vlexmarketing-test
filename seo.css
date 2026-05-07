@@ -696,4 +696,31 @@ h1, h2, h3 { text-transform: uppercase !important; }
   .se-shingle-inner { padding: 32px 20px; }
   .se-cta__form { padding: 24px 16px; }
   .se-services { grid-template-columns: 1fr; }
+
+  /* Compare table: fully stacked cards on mobile */
+  .se-compare__head { display: none !important; }
+  .se-compare__row {
+    display: flex !important;
+    flex-direction: column !important;
+    border: 1px solid #e2e2e8;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+  .se-compare__cat {
+    background: #f4f4f6;
+    padding: 10px 14px !important;
+    font-size: 0.72rem;
+    border-bottom: 1px solid #e2e2e8;
+  }
+  .se-compare__cell {
+    padding: 10px 14px !important;
+    font-size: 0.8rem;
+    border-left: none !important;
+    border-top: 1px solid #e2e2e8;
+  }
+  .se-compare__cell--vlex::before { content: "VLEX MARKETING"; display: block; font-size: 0.55rem; font-weight: 800; color: rgba(255,255,255,0.5); letter-spacing: 0.08em; margin-bottom: 4px; }
+  .se-compare__cell:nth-child(3)::before { content: "CHEAP SEO COMPANIES"; display: block; font-size: 0.55rem; font-weight: 800; color: #bbb; letter-spacing: 0.08em; margin-bottom: 4px; }
+  .se-compare__cell:nth-child(4)::before { content: "FREELANCERS"; display: block; font-size: 0.55rem; font-weight: 800; color: #bbb; letter-spacing: 0.08em; margin-bottom: 4px; }
+  .se-compare__row--last .se-compare__cell--vlex { border-radius: 0; }
 }

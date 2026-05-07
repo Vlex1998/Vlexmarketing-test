@@ -648,4 +648,31 @@ h1, h2, h3 { text-transform: uppercase !important; }
   .pa-cta__form { padding: 24px 16px; }
   .pa-platforms { gap: 12px; }
   .pa-platform { padding: 20px 16px; }
+
+  /* Compare table: fully stacked cards on mobile */
+  .pa-compare__head { display: none !important; }
+  .pa-compare__row {
+    display: flex !important;
+    flex-direction: column !important;
+    border: 1px solid #e2e2e8;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+  .pa-compare__cat {
+    background: #f4f4f6;
+    padding: 10px 14px !important;
+    font-size: 0.72rem;
+    border-bottom: 1px solid #e2e2e8;
+  }
+  .pa-compare__cell {
+    padding: 10px 14px !important;
+    font-size: 0.8rem;
+    border-left: none !important;
+    border-top: 1px solid #e2e2e8;
+  }
+  .pa-compare__cell--vlex::before { content: "VLEX MARKETING"; display: block; font-size: 0.55rem; font-weight: 800; color: rgba(255,255,255,0.5); letter-spacing: 0.08em; margin-bottom: 4px; }
+  .pa-compare__cell:nth-child(3)::before { content: "SCAMMY AGENCIES"; display: block; font-size: 0.55rem; font-weight: 800; color: #bbb; letter-spacing: 0.08em; margin-bottom: 4px; }
+  .pa-compare__cell:nth-child(4)::before { content: "FREELANCERS"; display: block; font-size: 0.55rem; font-weight: 800; color: #bbb; letter-spacing: 0.08em; margin-bottom: 4px; }
+  .pa-compare__row--last .pa-compare__cell--vlex { border-radius: 0; }
 }
