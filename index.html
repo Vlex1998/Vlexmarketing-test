@@ -341,50 +341,54 @@
   <!-- SPLIT FEATURE -->
   <section class="split-feature">
 
-    <!-- Service tabs row -->
-    <div class="split-tabs">
-      <button class="split-tab split-tab--active" data-tab="0" onclick="sfTab(0)">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-        Paid Ads (PPC)
-      </button>
-      <button class="split-tab" data-tab="1" onclick="sfTab(1)">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        SEO &amp; Rankings
-      </button>
-      <button class="split-tab" data-tab="2" onclick="sfTab(2)">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-        Website Design
-      </button>
+    <!-- Centered header + tabs -->
+    <div class="split-feature__top">
+      <span class="sf-eyebrow">Our Services</span>
+      <h2 class="sf-headline">VLEX GETS YOU BETTER LEADS WITH A <span class="text--red">RESULTS-DRIVEN TEAM</span></h2>
+      <div class="split-tabs">
+        <button class="split-tab split-tab--active" data-tab="0" onclick="sfTab(0)">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          Paid Ads (PPC)
+        </button>
+        <button class="split-tab" data-tab="1" onclick="sfTab(1)">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          Search Engine Optimization
+        </button>
+        <button class="split-tab" data-tab="2" onclick="sfTab(2)">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          Website Design
+        </button>
+      </div>
     </div>
 
     <!-- Panel 0: Paid Ads -->
     <div class="split-feature__inner sf-panel sf-panel--active" data-panel="0">
       <div class="split-feature__photo-col">
         <img src="brand assests/DSC00711-6.jpg" alt="Vlex team building paid ad campaigns" class="split-feature__photo" />
-        <a href="paid-ads.html" class="btn btn--primary split-feature__btn-overlay">Learn About Paid Ads</a>
+        <a href="paid-ads.html" class="btn btn--outline split-feature__btn-overlay">Learn About Paid Ads</a>
       </div>
       <div class="split-feature__content">
-        <h2>RESULTS-DRIVEN<br />PAID AD CAMPAIGNS</h2>
-        <p>We don't just run ads — we build revenue machines. Every campaign is engineered around your margins, market, and goals so your ad spend works overtime.</p>
+        <h3 class="sf-content-head">TARGETED PPC CAMPAIGNS</h3>
+        <p>Most businesses waste thousands on ads that never convert. To run profitable campaigns you need deep market research, precise targeting, and copy that speaks directly to your customer — or you're just burning cash.</p>
         <div class="split-feature__grid">
           <div class="split-feature__col">
-            <h4 class="sf-col-head">Concerns</h4>
+            <div class="sf-col-head">Concerns</div>
             <ul>
-              <li>Wasted budget with no clear strategy</li>
-              <li>Agencies won't share account access</li>
-              <li>Generic copy that doesn't convert</li>
-              <li>No real reporting — just pretty charts</li>
+              <li>Wasted budget with no real strategy</li>
+              <li>Agencies keep account access locked</li>
+              <li>Generic copy that blends into the feed</li>
+              <li>Reports full of vanity metrics, not ROI</li>
             </ul>
           </div>
-          <div class="split-feature__col split-feature__col--vlex">
-            <h4 class="sf-col-head sf-col-head--benefits">Benefits
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
-            </h4>
+          <div class="split-feature__col">
+            <div class="sf-col-head sf-col-head--benefits">Benefits
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </div>
             <ul>
-              <li>Custom strategy built for your market</li>
+              <li>Vlex campaigns are built for your market</li>
               <li>Full account ownership — always yours</li>
-              <li>Ad copy crafted for your customers</li>
-              <li>Transparent ROI reports every month</li>
+              <li>Copy crafted to convert your customers</li>
+              <li>Transparent ROI reporting every month</li>
             </ul>
           </div>
         </div>
@@ -395,30 +399,29 @@
     <div class="split-feature__inner sf-panel" data-panel="1">
       <div class="split-feature__photo-col">
         <img src="brand assests/DSC00711-6.jpg" alt="Vlex team building SEO strategy" class="split-feature__photo" />
-        <a href="seo.html" class="btn btn--primary split-feature__btn-overlay">Learn About SEO</a>
+        <a href="seo.html" class="btn btn--outline split-feature__btn-overlay">Learn About Our SEO</a>
       </div>
       <div class="split-feature__content">
-        <h2>DOMINATE SEARCH.<br />OWN YOUR MARKET.</h2>
-        <p>Rankings that last. We build sustainable SEO strategies targeting the exact searches your customers make — driving traffic that converts into real revenue.</p>
+        <h3 class="sf-content-head">SEARCH ENGINE OPTIMIZATION</h3>
+        <p>Most SEO companies deliver slow results and shortcuts that get you penalized. To truly dominate search, you need local-focused strategy, real content, and white-hat tactics built to compound over time.</p>
         <div class="split-feature__grid">
           <div class="split-feature__col">
-            <h4 class="sf-col-head">Concerns</h4>
+            <div class="sf-col-head">Concerns</div>
             <ul>
-              <li>Slow results &amp; no local presence</li>
+              <li>Slow results with no local presence</li>
               <li>Keyword stuffing that gets penalized</li>
-              <li>No content strategy — just backlinks</li>
-              <li>Rankings drop the moment you pause</li>
+              <li>Backlinks only — no content strategy</li>
+              <li>Rankings vanish the moment you stop</li>
             </ul>
           </div>
-          <div class="split-feature__col split-feature__col--vlex">
-            <h4 class="sf-col-head sf-col-head--benefits">Benefits
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
-            </h4>
+          <div class="split-feature__col">
+            <div class="sf-col-head sf-col-head--benefits">Benefits
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </div>
             <ul>
-              <li>Local SEO that puts you on the map</li>
-              <li>White-hat tactics that stick long-term</li>
-              <li>Content built to rank &amp; convert</li>
-              <li>Compounding growth that scales over time</li>
+              <li>Vlex SEO is fully tailored to your market</li>
+              <li>Fully own your rankings long-term</li>
+              <li>Always built with local SEO in mind</li>
             </ul>
           </div>
         </div>
@@ -429,30 +432,28 @@
     <div class="split-feature__inner sf-panel" data-panel="2">
       <div class="split-feature__photo-col">
         <img src="brand assests/DSC00711-6.jpg" alt="Vlex team designing websites" class="split-feature__photo" />
-        <a href="website-design.html" class="btn btn--primary split-feature__btn-overlay">Learn About Web Design</a>
+        <a href="website-design.html" class="btn btn--outline split-feature__btn-overlay">Learn About Our Websites</a>
       </div>
       <div class="split-feature__content">
-        <h2>WEBSITES BUILT<br />TO CONVERT.</h2>
-        <p>Your website is your #1 salesperson. We design fast, fully branded sites engineered to turn visitors into leads — not just impress them.</p>
+        <h3 class="sf-content-head">TAILORED WEBSITE DESIGN</h3>
+        <p>Most homeowners don't realize how big a role a website plays in whether the phone rings. To have a beautiful, conversion-focused site can be the crucial differentiator between a prospect choosing you or your competitor.</p>
         <div class="split-feature__grid">
           <div class="split-feature__col">
-            <h4 class="sf-col-head">Concerns</h4>
+            <div class="sf-col-head">Concerns</div>
             <ul>
-              <li>Generic templates that look cheap</li>
-              <li>Slow load times that kill conversions</li>
-              <li>Agency owns the site — not you</li>
-              <li>No SEO built in from the start</li>
+              <li>Generic websites look low-end</li>
+              <li>Many agencies don't let you own your site</li>
+              <li>Many designers don't know SEO</li>
             </ul>
           </div>
-          <div class="split-feature__col split-feature__col--vlex">
-            <h4 class="sf-col-head sf-col-head--benefits">Benefits
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
-            </h4>
+          <div class="split-feature__col">
+            <div class="sf-col-head sf-col-head--benefits">Benefits
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </div>
             <ul>
-              <li>Fully custom &amp; branded to your business</li>
-              <li>Lightning-fast &amp; mobile-first builds</li>
-              <li>You own your site — always</li>
-              <li>SEO-ready architecture from day one</li>
+              <li>Vlex sites are fully tailored to your business</li>
+              <li>Fully own your website &amp; take it anywhere</li>
+              <li>Always built with SEO in mind</li>
             </ul>
           </div>
         </div>
