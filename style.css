@@ -878,6 +878,114 @@ h4 { font-size: 1rem; font-weight: 700; }
 }
 .service-card__link:hover { letter-spacing: 0.02em; }
 
+/* ─── SPLIT FEATURE ─────────────────────────────────────────── */
+.split-feature {
+  background: #0f0f18;
+  overflow: hidden;
+}
+.split-feature__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 600px;
+}
+.split-feature__photo-col {
+  position: relative;
+  overflow: hidden;
+}
+.split-feature__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.split-feature__btn-overlay {
+  position: absolute;
+  bottom: 36px;
+  left: 36px;
+  z-index: 2;
+}
+.split-feature__content {
+  padding: 72px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 22px;
+}
+.split-feature__content h2 {
+  font-size: clamp(1.9rem, 2.6vw, 2.8rem);
+  font-weight: 900;
+  color: var(--white);
+  line-height: 1.08;
+  margin: 0;
+}
+.split-feature__content p {
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.6);
+  line-height: 1.75;
+  margin: 0;
+  max-width: 420px;
+}
+.split-feature__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-top: 4px;
+}
+.split-feature__col h4 {
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(255,255,255,0.3);
+  margin: 0 0 14px;
+}
+.split-feature__col--vlex h4 { color: var(--red); }
+.split-feature__col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.split-feature__col ul li {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.45);
+  line-height: 1.5;
+  padding-left: 18px;
+  position: relative;
+}
+.split-feature__col ul li::before {
+  content: '✕';
+  position: absolute;
+  left: 0;
+  color: rgba(255,255,255,0.2);
+  font-size: 0.65rem;
+  top: 3px;
+}
+.split-feature__col--vlex ul li {
+  color: rgba(255,255,255,0.85);
+  font-weight: 500;
+}
+.split-feature__col--vlex ul li::before {
+  content: '✓';
+  color: var(--red);
+}
+
+@media (max-width: 900px) {
+  .split-feature__inner { grid-template-columns: 1fr; }
+  .split-feature__photo-col { height: 320px; }
+  .split-feature__btn-overlay { bottom: 24px; left: 24px; }
+  .split-feature__content { padding: 52px 40px; }
+}
+@media (max-width: 600px) {
+  .split-feature__photo-col { height: 260px; }
+  .split-feature__content { padding: 40px 20px; gap: 18px; }
+  .split-feature__grid { grid-template-columns: 1fr; gap: 20px; }
+  .split-feature__content h2 { font-size: clamp(1.6rem, 7vw, 2rem); }
+}
+
 /* ─── ABOUT ─────────────────────────────────────────────────── */
 .about { background: var(--white); }
 
