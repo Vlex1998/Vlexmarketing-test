@@ -1,5 +1,5 @@
 /* ─── WEBSITE DESIGN PAGE ───────────────────────────────────── */
-
+html, body { overflow-x: hidden; max-width: 100vw; }
 .wd-section { padding: 96px 0; }
 
 /* ─── HERO ─────────────────────────────────────────────────── */
